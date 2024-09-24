@@ -67,5 +67,8 @@
     @apply text-primary;
     font-size: 2em;
   }
+  a {
+    color: blue;
+  }
 }
 
