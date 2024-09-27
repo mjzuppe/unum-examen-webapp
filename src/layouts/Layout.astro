@@ -1,6 +1,6 @@
 ---
-import '@/styles/globals.css'
-import { ViewTransitions } from 'astro:transitions';
+import "@/styles/globals.css";
+import { ViewTransitions } from "astro:transitions";
 import Logo from "@/components/Logo.astro";
 interface Props {
 	title: string;
@@ -8,27 +8,32 @@ interface Props {
 	image?: string;
 	canonicalURL?: string;
 	lastUpdated?: string;
-	type?: 'website' | 'article';
+	type?: "website" | "article";
 }
 
 const {
 	title,
 	description,
-	image = '/default-og-image.png',
+	image = "/default-og-image.png",
 	canonicalURL,
-	type = 'website',
+	type = "website",
 	lastUpdated,
 } = Astro.props;
 
 // Fallback for canonicalURL if not provided
-const siteURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
+const siteURL = Astro.site
+	? new URL(Astro.url.pathname, Astro.site)
+	: Astro.url;
 const finalCanonicalURL = canonicalURL || siteURL.href;
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<meta name="last-modified" content={lastUpdated}>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+	rel="stylesheet"
+/>
+<meta name="last-modified" content={lastUpdated} />
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -36,52 +41,62 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<meta name="generator" content={Astro.generator} />
-		
+
 		<!-- SEO Meta Tags -->
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonicalURL} />
-		
+
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content={type} />
 		<meta property="og:url" content={canonicalURL} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content={new URL(image, Astro.url)} />
-		
+
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content={canonicalURL} />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
 		<meta property="twitter:image" content={new URL(image, Astro.url)} />
-		
+
 		<!-- Sitemap -->
 		<link rel="sitemap" href="/sitemap-index.xml" />
-		
+
 		<!-- View Transitions -->
 		<ViewTransitions />
 	</head>
-    <script defer src="https://analytics.us.umami.is/script.js" data-website-id="bc790383-ce63-4879-821d-609367c7ff19"></script>
+	<script
+		defer
+		src="https://analytics.us.umami.is/script.js"
+		data-website-id="bc790383-ce63-4879-821d-609367c7ff19"></script>
 	<main>
-		<div class="w-full mt-24 mb-4 flex items-center justify-center">
-			<div class="w-3/4 items-center justify-center">
-				<a href="/">
-					<div>
-						<Logo />
-					</div>
-				</a>
-				<h2 class="text-center my-6 text-gray-600">
-					A personalized Catholic examination of conscience.
-				</h2>
-				<p class="text-center w-full my-6 text-gray-600">
-					Preparing to make a good confession means walking through your experiences and surfacing where you missed the mark. Unum Examen uses AI and is designed to aid in preparing for confession by walking through personalized, but common scenarios of both mortal and venial sins. 
-				</p>
-				</div>
-		</div>
 		<body>
+			<div class="w-full mt-24 mb-4 flex items-center justify-center">
+				<div class="flex flex-col w-3/4 items-center justify-center">
+					<div class="w-full">
+						<a href="/">
+							<div>
+								<Logo />
+							</div>
+						</a>
+					</div>
+					<h2 class="text-center my-6">
+						A personalized Catholic examination of conscience.
+					</h2>
+					<p class="text-center w-full my-6 max-w-2xl">
+						Preparing to make a good confession means walking
+						through your experiences and surfacing where you missed
+						the mark. Unum Examen uses AI and is designed to aid in
+						preparing for confession by walking through
+						personalized, but common scenarios of both mortal and
+						venial sins.
+					</p>
+				</div>
+			</div>
+
 			<slot />
 		</body>
 	</main>
-	
 </html>
