@@ -85,30 +85,22 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 
 						
 			</nav>
-			<!-- <div class="w-full mt-24 mb-4 flex items-center justify-center bg-slate-500">
-				<div class="flex flex-col w-3/4 items-center justify-center">
-					<div class="w-full">
-						<a href="/">
-							<div>
-								<Logo />
-							</div>
-						</a>
-					</div>
-					<h2 class="text-center my-6">
-						A personalized Catholic examination of conscience.
-					</h2>
-					<p class="text-center w-full my-6 max-w-2xl">
-						Preparing to make a good confession means walking
-						through your experiences and surfacing where you missed
-						the mark. Unum Examen uses AI and is designed to aid in
-						preparing for confession by walking through
-						personalized, but common scenarios of both mortal and
-						venial sins.
+			<slot />
+			<footer class="flex flex-col items-center w-full min-h-12">
+			<div class="flex flex-wrap justify-center max-w-xl ">
+				<a href="/" class="flex justify-center p-6 text-white">about us</a>
+				<a href="/" class="flex justify-center p-6 text-white">roadmap</a>
+				<a href="/" class="flex justify-center p-6 text-white">privacy</a>
+				<a href="/" class="flex justify-center p-6 text-white">terms</a>
+				<a href="/" class="flex justify-center p-6 text-white">contact</a>
+			</div>
+				<div class="flex justify-center w-full p-6 mt-6">
+					<p class="text-white text-center text-xs">
+						© {new Date().getFullYear()} Unum Examen. All rights reserved.
 					</p>
 				</div>
-			</div> -->
-
-			<slot />
+			</div>
+			</footer>
 		</body>
 	</main>
 </html>

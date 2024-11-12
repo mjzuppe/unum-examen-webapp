@@ -1,9 +1,16 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Node.js & TypeScript",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
-	"runArgs": ["--network=host"],
-	"forwardPorts": [4321]
+    "name": "Unum Examen Webapp",
+    "image": "node:23-bookworm",
+    "runArgs": [
+        "--network=host"
+    ],
+    "forwardPorts": [
+        4321
+    ],
+    "postCreateCommand": "apt-get update && apt-get install git",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
+    ],
+    "remoteUser": "node",
+    "updateRemoteUserUID": true
 }
