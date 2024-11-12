@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import Layout from "@/layouts/Layout.astro";
 import Featured from "@/components/Featured.astro";
 import Faqs from "@/components/Faq.astro";
+import Input from "@/components/Input.astro";
 ---
 
 <Layout
@@ -17,6 +18,9 @@ import Faqs from "@/components/Faq.astro";
 		<p class="text-center text-lg mt-6">
 			Privacy centric, powered by AI.
 		</p>
+	</div>
+	<div class="w-full flex justify-center">
+		<Input />
 	</div>
 	<div class="w-full mt-4 mb-4 p-12 border-t-2 border-b-2 border-gray-800">
 		<Featured />
