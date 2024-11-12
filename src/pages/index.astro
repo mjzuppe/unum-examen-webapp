@@ -1,8 +1,8 @@
 ---
 import "@/styles/globals.css";
 import Layout from "@/layouts/Layout.astro";
-import BasicList from "@/components/BasicList.astro";
 import Featured from "@/components/Featured.astro";
+import Faqs from "@/components/Faq.astro";
 ---
 
 <Layout
@@ -20,5 +20,8 @@ import Featured from "@/components/Featured.astro";
 	</div>
 	<div class="w-full mt-4 mb-4 p-12 border-t-2 border-b-2 border-gray-800">
 		<Featured />
+	</div>
+	<div class="w-full flex justify-center">
+		<Faqs />
 	</div>
 </Layout>
