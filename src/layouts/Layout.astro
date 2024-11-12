@@ -67,13 +67,25 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 		<!-- View Transitions -->
 		<ViewTransitions />
 	</head>
-	<script
+	<!-- <script
 		defer
 		src="https://analytics.us.umami.is/script.js"
-		data-website-id="bc790383-ce63-4879-821d-609367c7ff19"></script>
+		data-website-id="bc790383-ce63-4879-821d-609367c7ff19"></script> -->
 	<main>
 		<body>
-			<div class="w-full mt-24 mb-4 flex items-center justify-center">
+			<nav class="flex h-20 p-6 justify-between">
+				<div class="w-72">
+					<a class="m-0 p-0" href="/">
+						<div class="m-0 p-0">
+							<Logo />
+						</div>
+					</a>
+				</div>
+				<!-- <div class="bg-blue-600">right</div> -->
+
+						
+			</nav>
+			<!-- <div class="w-full mt-24 mb-4 flex items-center justify-center bg-slate-500">
 				<div class="flex flex-col w-3/4 items-center justify-center">
 					<div class="w-full">
 						<a href="/">
@@ -94,7 +106,7 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 						venial sins.
 					</p>
 				</div>
-			</div>
+			</div> -->
 
 			<slot />
 		</body>

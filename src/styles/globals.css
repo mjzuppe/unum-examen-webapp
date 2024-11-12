@@ -3,11 +3,11 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --background: #CBC9AD;
+    --background: #191919;
     --secondary-background: #4c4b44;
     --foreground: 0 0% 3.9%;
-    --text-color: #191919;
-    --secondary-text-color: #EFFFF9;
+    --text-color: #EFFFF9;
+    --secondary-text-color: #191919;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
