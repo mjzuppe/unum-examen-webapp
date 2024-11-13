@@ -4,6 +4,7 @@ import Layout from "@/layouts/Layout.astro";
 import Featured from "@/components/Featured.astro";
 import Faqs from "@/components/Faq.astro";
 import Input from "@/components/Input.astro";
+import Bloglist from "@/components/Bloglist.astro";
 ---
 
 <Layout
@@ -22,8 +23,11 @@ import Input from "@/components/Input.astro";
 	<div class="w-full flex justify-center mt-4 mb-4">
 		<Input />
 	</div>
-	<div class="w-full mt-4 mb-4 p-12 border-t-2 border-b-2 border-gray-800">
+	<div class="w-full mt-4 mb-4 p-12 border-t-2  border-gray-800">
 		<Featured />
+	</div>
+	<div class="w-full mt-4 mb-4 p-12 border-t-2 border-b-2 border-gray-800">
+		<Bloglist />
 	</div>
 	<div class="w-full flex justify-center">
 		<Faqs />
