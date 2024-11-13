@@ -68,9 +68,14 @@
     background-color: var(--background);
     color: var(--text-color);
   }
+  h1 {
+    font-size: 2.8em;
+  }
   h2 {
-    @apply text-primary;
-    font-size: 2em;
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.5em;
   }
   a {
     color: rgb(88, 177, 250);
