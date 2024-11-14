@@ -1,17 +1,56 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from "../../layouts/Layout.astro";
+
+const samples = [
+  "Did I lie to my mother or father?",
+  "Did I steal anything?",
+  "Did I use bad language?",
+  "Did I cheat on a test?",
+  "Did I gossip?",
+  "Did I get drunk?",
+  "Did I use drugs?",
+];
+
 ---
 <Layout title="" description="" footerSticky={true}>
-<div class="w-full flex flex-col items-center mt-12">
-  <div class="w-full text-center ">
-    <h1>A Catholic Examination of Conscience</h1>
-    <h2>Demographic Demogrpahic Demographic</h2>
-  </div>
-  <div id="examen container" class="mt-12 flex flex-col xs:w-128 lg:w-[850px] items-start justify-start p-8">
-    <div class="flex justify-evenly w-full">
-      <div id="one"><p>Did I lie to my mother or father?</p></div>
-      <div>delete</div>
+  <div class="w-full flex flex-col items-center mt-12">
+    <div class="w-full text-center">
+      <h1>A Catholic Examination of Conscience</h1>
+      <h2>Demographic Demogrpahic Demographic</h2>
     </div>
+    <div
+      id="examen container"
+      class="mt-12 flex flex-col xs:w-128 lg:w-[850px] items-start justify-start p-8"
+    >
+    <h3>Theme</h3>
+      {
+        samples.map((sample, index) => (
+          <div id={`row-${index}`} class="flex justify-between w-full transition-opacity duration-500 mt-5">
+            <div class="w-3/4">
+              <p>{sample}</p>
+            </div>
+            <div class="w-1/4">
+              <button class="w-full" data-index={index}>
+                delete
+              </button>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <script>
+      window.addEventListener("load", () => {
+        document.querySelectorAll("button[data-index]").forEach((button) => {
+          button.addEventListener("click", (event) => {
+            const index = event.target.getAttribute("data-index");
+            const row = document.getElementById(`row-${index}`);
+            row.classList.add('opacity-0');
+            setTimeout(() => {
+              row.style.display = 'none';
+            }, 500); // Match the duration of the CSS transition
+          });
+        });
+      });
+    </script>
   </div>
-</div>
 </Layout>
