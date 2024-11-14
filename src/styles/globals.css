@@ -80,6 +80,18 @@
   a {
     color: rgb(88, 177, 250);
   }
-  
+
 }
 
+@media print {
+  * {
+    color: #000000 !important;
+    background-color: #FFFFFF !important;
+  }
+  body {
+    background-color: #FFFFFF !important;
+  }
+  footer {
+    display: none !important;
+  }  
+}
