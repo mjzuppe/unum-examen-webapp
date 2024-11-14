@@ -67,6 +67,7 @@
     @apply bg-background text-foreground;
     background-color: var(--background);
     color: var(--text-color);
+    
   }
   h1 {
     font-size: 2.8em;
@@ -80,7 +81,6 @@
   a {
     color: rgb(88, 177, 250);
   }
-
 }
 
 @media print {
@@ -94,4 +94,11 @@
   footer {
     display: none !important;
   }  
+  #print {
+    display: none !important;
+  }
+  .remove {
+    display: none !important;
+  }
+
 }
