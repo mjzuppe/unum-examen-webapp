@@ -41,12 +41,13 @@ const samples = [
     <script>
       window.addEventListener("load", () => {
         document.querySelectorAll("button[data-index]").forEach((button) => {
-          button.addEventListener("click", (event) => {
-            const index = event.target.getAttribute("data-index");
-            const row = document.getElementById(`row-${index}`);
-            row.classList.add('opacity-0');
+          button.addEventListener("click", (event:Event) => {
+            const target = event.target as HTMLElement;
+            const index = target?.getAttribute("data-index");
+            const row:HTMLElement | null = document.getElementById(`row-${index}`);
+            row?.classList.add('opacity-0');
             setTimeout(() => {
-              row.style.display = 'none';
+              if (row) row.style.display = 'none';
             }, 500); // Match the duration of the CSS transition
           });
         });
