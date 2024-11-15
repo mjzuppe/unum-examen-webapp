@@ -67,7 +67,6 @@
     @apply bg-background text-foreground;
     background-color: var(--background);
     color: var(--text-color);
-    
   }
   h1 {
     font-size: 2.8em;
@@ -101,4 +100,15 @@
     display: none !important;
   }
 
+}
+.reader {
+  p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
 }
