@@ -3,11 +3,14 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --background: #191919;
+    --background: #10030c;
     --secondary-background: #4c4b44;
     --foreground: 0 0% 3.9%;
     --text-color: #EFFFF9;
-    --secondary-text-color: #191919;
+    --secondary-text-color: #d82889;
+    --primary-click: #A61F69;
+    --secondary-click: #F2921D;
+    --subtle-edge: #521240;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
@@ -68,6 +71,7 @@
     background-color: var(--background);
     color: var(--text-color);
   }
+
   h1 {
     font-size: 2.8em;
   }
@@ -78,8 +82,26 @@
     font-size: 1.5em;
   }
   a {
-    color: rgb(88, 177, 250);
+    color: var(--text-color);
   }
+  .body_bg {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/bg.png'); 
+    background-size: fill;
+    background-repeat:repeat-y;
+    opacity: .45;
+    z-index: -1;
+    filter:hue-rotate(60deg);
+  }
+  .primary-input {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); 
+  }
+
 }
 
 @media print {
@@ -110,5 +132,8 @@
     list-style-type: circle;
     margin-left: 20px;
     margin-bottom: 25px;
+  }
+  a {
+    color: rgb(23, 105, 248);
   }
 }
