@@ -92,12 +92,12 @@
     background-image: url('../img/bg.png'); 
     background-size: fill;
     background-repeat:repeat-y;
-    opacity: .45;
+    opacity: .25;
     z-index: -1;
     filter:hue-rotate(60deg);
   }
   .primary-input {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px); 
   }
