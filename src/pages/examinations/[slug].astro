@@ -66,7 +66,8 @@ const examin = Astro.props;
                 <h3>{theme.replace(/\b\w/g, c => c.toUpperCase())}</h3>
             {examin.data[theme].map((sample:any, index:number) => (
                 <div
-              id={`row-theme-${theme}-sample-${index}`}
+                id={`row-${theme}-${index}`}
+                data-theme={theme}
               class="flex justify-between w-full transition-opacity duration-500 mt-5"
             >
               <div class="w-full">
@@ -80,7 +81,7 @@ const examin = Astro.props;
               <div class="xs:w-8 md:w-32 flex items-center remove">
                 <button
                   class="p-1 hover:brightness-150 transition-all"
-                  id={`theme-${theme}-sample-${index}`}
+                  data-theme={theme}
                   data-index={index}
                 >
                   <svg
@@ -94,29 +95,32 @@ const examin = Astro.props;
                   </svg>
                 </button>
               </div>
-            </div>))
+            </div>
+        ))
             }
         </div>
           ))
         }
       </div>
-      <script>
-        // START HERE - Script doesn't work
+      
+    </div>
+    <script>
         window.addEventListener("load", () => {
-          document.querySelectorAll("button[id]").forEach((button) => {
-            button.addEventListener("click", (event: Event) => {
-              const button = (event.target as HTMLElement).closest("button");
-              const index = button?.getAttribute("id");
-              const row: HTMLElement | null = document.getElementById(
-                `row-theme-${theme}-sample-${index}`,
-              );
-              row?.classList.add("opacity-0");
-              setTimeout(() => {
-                if (row) row.style.display = "none";
-              }, 500);
+          document.querySelectorAll("button[data-theme]").forEach((button) => {
+            button.addEventListener("click", (event) => {
+              const button = (event.target as HTMLElement).closest('button');
+              if (!button) return;
+              const theme = button.dataset.theme;
+              const index = button.dataset.index;   
+              const row = document.getElementById(`row-${theme}-${index}`);
+              if (row) {
+                row.classList.add("opacity-0");
+                setTimeout(() => {
+                  row.style.display = "none";
+                }, 500);
+              }
             });
           });
         });
       </script>
-    </div>
   </Layout>
