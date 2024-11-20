@@ -10,6 +10,7 @@ interface Props {
 	lastUpdated?: string;
 	type?: "website" | "article";
 	reader?: boolean;
+	stickyFooter?: boolean;
 }
 
 const {
@@ -20,6 +21,7 @@ const {
 	type = "website",
 	lastUpdated,
 	reader = false,
+	stickyFooter = false,
 } = Astro.props;
 
 // Fallback for canonicalURL if not provided
@@ -29,7 +31,7 @@ const siteURL = Astro.site
 const finalCanonicalURL = canonicalURL || siteURL.href;
 
 // 
-const footerClass = "relative bottom-0 bg-[--background] flex flex-col items-center w-full min-h-12 border-gray-800 border-t-2 mt-8" 
+const footerClass = `${stickyFooter? "fixed":"relative"} bottom-0 bg-[--background] flex flex-col items-center w-full min-h-12 border-gray-800 border-t-2 mt-8`
 
 ---
 <html lang="en">
