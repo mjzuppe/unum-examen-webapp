@@ -13,6 +13,7 @@ const blog = defineCollection({
 });
 
 const examination = defineCollection({
+	type: 'data'
 	// Type-check frontmatter using a schema
 	// schema: z.object({
 	// 	title: z.string(),

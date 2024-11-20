@@ -32,20 +32,20 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 const footerClass = "relative bottom-0 bg-[--background] flex flex-col items-center w-full min-h-12 border-gray-800 border-t-2 mt-8" 
 
 ---
+<html lang="en">
+<meta name="last-modified" content={lastUpdated} />
 
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="sitemap" href="/sitemap-index.xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
 	href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
 	rel="stylesheet"
 />
-<meta name="last-modified" content={lastUpdated} />
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="sitemap" href="/sitemap-index.xml" />
 		<meta name="generator" content={Astro.generator} />
 
 		<!-- SEO Meta Tags -->
@@ -77,8 +77,9 @@ const footerClass = "relative bottom-0 bg-[--background] flex flex-col items-cen
 		defer
 		src="https://analytics.us.umami.is/script.js"
 		data-website-id="bc790383-ce63-4879-821d-609367c7ff19"></script> -->
-	<main>
+
 		<body>
+			<main>
 			<nav class="flex h-20 p-6 justify-center md:justify-between">
 				<div class="w-72">
 					<a class="m-0 p-0" href="/">
@@ -113,6 +114,7 @@ const footerClass = "relative bottom-0 bg-[--background] flex flex-col items-cen
 				</div>
 			</div>
 			</footer>
+		</main>
 		</body>
-	</main>
-</html>
+
+		</html>
