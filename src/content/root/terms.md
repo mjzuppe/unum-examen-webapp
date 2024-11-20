@@ -1,6 +1,6 @@
 # Terms of Use
 
-Last Updated: [Date]
+Last Updated: November 18, 2024
 
 ## Unum Examen
 
@@ -35,7 +35,7 @@ All content on this website, including but not limited to examinations, blog pos
 
 ## 5. Privacy and Data
 
-We respect your privacy. Our collection and use of information is governed by our Privacy Policy, which you can find [link to Privacy Policy].
+We respect your privacy. Our collection and use of information is governed by our [Privacy Policy](/privacy).
 
 ## 6. Disclaimers
 
@@ -61,4 +61,4 @@ We reserve the right to terminate or suspend access to our service immediately, 
 
 ## 11. Contact Us
 
-If you have any questions about these Terms, please contact us at [contact information].
+If you have any questions about these Terms, please [contact us](https://forms.gle/xwE1MAhu5gPa1y2r9).

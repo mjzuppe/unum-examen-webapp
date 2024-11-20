@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last Updated: [Date]
+Last Updated: November 20, 2024
 
 ## Overview
 We believe in being transparent about how we collect and use data. This privacy policy explains what information we collect when you use our website, how we use it, and what choices you have.
@@ -13,10 +13,10 @@ We believe in being transparent about how we collect and use data. This privacy 
 We use Umami Analytics to understand how visitors use our website. This helps us improve our service and content. We collect:
 - Pages viewed
 - Time spent on pages
-- Your IP address (partially anonymized)
+- A user's general location
 - Basic device information (browser type, operating system)
 
-We anonymize IP addresses by removing the last section before storage, making it impossible to identify individual users.
+We utilize Umami because it does not store personally identifiable information and it anonymizes all data collected. In addition, users cannot be identified and are never tracked across websites.
 
 ### CDN and Security Services
 We use Cloudflare as our Content Delivery Network (CDN) and security provider. Cloudflare automatically collects and processes:
@@ -88,7 +88,7 @@ Each processor has their own privacy policy and security measures in place.
 We may update this privacy policy from time to time. We will notify newsletter subscribers of significant changes and always post the latest version on our website.
 
 ## Contact Us
-[Include your contact information or method for privacy-related questions]
+[We want to hear from you.](https://forms.gle/xwE1MAhu5gPa1y2r9)
 
 ## Additional Rights
 Depending on your location, you may have additional privacy rights under local laws. Please contact us if you have questions about exercising these rights.
