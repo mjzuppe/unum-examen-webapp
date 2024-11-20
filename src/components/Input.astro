@@ -8,7 +8,12 @@
         <div>
           
         <div class="m-2 border-2 p-2 border-[--subtle-edge]">
+            <label class="sr-only" for="marital-status">
+                Marital Status
+              </label>
             <select
+                aria-label="Marital Status"
+                id="marital-status"
                 class="bg-transparent font-bold text-xl m-1 text-center text-[--secondary-text-color] transition duration-300 ease focus:outline-none appearance-none cursor-pointer"
             >
                 <option value="bucharest">Married</option>
@@ -23,9 +28,14 @@
         <div>
             <!-- <div class="h-10 flex items-center ml-4 mr-4 text-xl">and a</div> -->
             <div class="m-2 border-2 p-2 border-[--subtle-edge]">
+            <label class="sr-only" for="age-sex">
+                Age/Sex
+                </label>
             <select
+                aria-label="Age/Sex"
                 class="bg-transparent font-bold text-xl m-1 text-center text-[--secondary-text-color] transition duration-300 ease focus:outline-none appearance-none cursor-pointer"
-            >
+                id="age-sex"
+                >
                 <option value="bucharest">18-24 Male</option>
                 <option value="london">18-24 Female</option>
             </select>
@@ -33,7 +43,10 @@
         </div>
         <div>
             <div class="m-2 border-2 p-2 border-[--subtle-edge]">
+                <label class="sr-only" for="parental-status">Parental Status</label>
                 <select
+                    id="parental-status"
+                    aria-label="Parental Status"
                     class="bg-transparent font-bold text-xl m-1 text-center text-[--secondary-text-color] transition duration-300 ease focus:outline-none appearance-none cursor-pointer"
                 >
                     <option value="bucharest">with children</option>
