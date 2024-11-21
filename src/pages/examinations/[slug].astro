@@ -6,7 +6,7 @@ export async function getStaticPaths() {
     const examinations = await getCollection("examination");
     return examinations.map((examin) => ({
         params: {
-            slug: examin.id,
+            slug: examin.id.split("_")[0],
             title: examin.id.split("-").join(" "),
         },
         props: examin,
@@ -47,8 +47,14 @@ export function formatDemographic(input: string): string {
 
 type Props = CollectionEntry<"examination">;
 const examin = Astro.props;
-
-const examin_title = formatDemographic(examin.id
+const timestamp = new Date(Number(examin.id.split("_")[1]));
+const timestamp_iso = timestamp.toISOString();
+const timestamp_friendly = timestamp.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+});
+const examin_title = formatDemographic(examin.id.split("_")[0]
                         .split("-")
                         .join(" ")
                         .replace(/(\d+)\s+(\d+)/g, '$1-$2'))
@@ -56,7 +62,7 @@ const examin_title = formatDemographic(examin.id
 
 ---
 
-<Layout title={`A Catholic confession guide for ${examin_title[0] == "1"? "an" : "a"} ${examin_title}`} description={`Prepare now to make a good confession with printable guide tailored for a ${examin_title.toLowerCase()}`}>
+<Layout updated={timestamp_iso} title={`A Catholic confession guide for ${examin_title[0] == "1"? "an" : "a"} ${examin_title}`} description={`Prepare now to make a good confession with printable guide tailored for a ${examin_title.toLowerCase()}`}>
     <div class="w-full flex flex-col items-center mt-12">
         <div class="w-full text-center">
             <h1>A Catholic Examination of Conscience</h1>
@@ -67,6 +73,7 @@ const examin_title = formatDemographic(examin.id
         <div class="m-8 max-w-4xl text-center">
             <p class="font-light">In preparing for confession, please read through the examination questions and explanations thoughtfully, reflecting on each point and honestly identifying where you've fallen short of God's call in your life. You may click and remove any irrelevant ones as you proceed. Take mental note of any serious sins that require confession, focusing on being thorough but not scrupulous, then use these insights to make a complete and sincere confession to your priest.</p>
         </div>
+        <p>Updated: {timestamp_friendly}</p>
         <div
             id="examen container"
             class="mt-8 flex flex-col xs:w-128 lg:w-[850px] items-start p-8"

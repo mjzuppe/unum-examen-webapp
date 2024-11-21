@@ -11,6 +11,7 @@ interface Props {
 	type?: "website" | "article";
 	reader?: boolean;
 	stickyFooter?: boolean;
+	updated?: string;
 }
 
 const {
@@ -22,6 +23,7 @@ const {
 	lastUpdated,
 	reader = false,
 	stickyFooter = false,
+	updated = new Date().toISOString(),
 } = Astro.props;
 
 // Fallback for canonicalURL if not provided
@@ -54,6 +56,7 @@ const footerClass = `${stickyFooter? "fixed":"relative"} bottom-0 bg-[--backgrou
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonicalURL} />
+		<meta property="article:modified_time" content={updated}>
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content={type} />
