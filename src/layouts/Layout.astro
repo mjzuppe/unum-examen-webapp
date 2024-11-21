@@ -9,15 +9,21 @@ interface Props {
 	canonicalURL?: string;
 	lastUpdated?: string;
 	type?: "website" | "article";
+	reader?: boolean;
+	stickyFooter?: boolean;
+	updated?: string;
 }
 
 const {
 	title,
 	description,
-	image = "/default-og-image.png",
+	image = "../../ue-social.jpg",
 	canonicalURL,
 	type = "website",
 	lastUpdated,
+	reader = false,
+	stickyFooter = false,
+	updated = new Date().toISOString(),
 } = Astro.props;
 
 // Fallback for canonicalURL if not provided
@@ -25,27 +31,32 @@ const siteURL = Astro.site
 	? new URL(Astro.url.pathname, Astro.site)
 	: Astro.url;
 const finalCanonicalURL = canonicalURL || siteURL.href;
----
 
+// 
+const footerClass = `${stickyFooter? "fixed":"relative"} bottom-0 bg-[--background] flex flex-col items-center w-full min-h-12 border-gray-800 border-t-2 mt-8`
+
+---
+<html lang="en">
+<meta name="last-modified" content={lastUpdated} />
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="sitemap" href="/sitemap-index.xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
 	href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
 	rel="stylesheet"
 />
-<meta name="last-modified" content={lastUpdated} />
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="sitemap" href="/sitemap-index.xml" />
 		<meta name="generator" content={Astro.generator} />
 
 		<!-- SEO Meta Tags -->
 		<title>{title}</title>
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonicalURL} />
+		<meta property="article:modified_time" content={updated}>
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content={type} />
@@ -69,34 +80,47 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 	</head>
 	<script
 		defer
-		src="https://analytics.us.umami.is/script.js"
-		data-website-id="bc790383-ce63-4879-821d-609367c7ff19"></script>
-	<main>
+		src="https://workers.unumexamen.com/script.js"
+		data-website-id="bc790383-ce63-4879-821d-609367c7ff19">
+	</script>
+
 		<body>
-			<div class="w-full mt-24 mb-4 flex items-center justify-center">
-				<div class="flex flex-col w-3/4 items-center justify-center">
-					<div class="w-full">
-						<a href="/">
-							<div>
-								<Logo />
-							</div>
-						</a>
-					</div>
-					<h2 class="text-center my-6">
-						A personalized Catholic examination of conscience.
-					</h2>
-					<p class="text-center w-full my-6 max-w-2xl">
-						Preparing to make a good confession means walking
-						through your experiences and surfacing where you missed
-						the mark. Unum Examen uses AI and is designed to aid in
-						preparing for confession by walking through
-						personalized, but common scenarios of both mortal and
-						venial sins.
+			<main>
+			<nav class="flex h-20 p-6 justify-center md:justify-between">
+				<div class="w-72">
+					<a class="m-0 p-0" title="Unum Examen home" href="/">
+						<div class="m-0 p-0">
+							<Logo />
+						</div>
+					</a>
+				</div>
+				<!-- <div class="bg-blue-600">right</div> -->
+
+						
+			</nav>
+				{reader?
+				<div class="m-16 p-4 leading-relaxed reader">
+						<slot />
+				</div>
+			
+				:
+				<slot />
+			     }
+			<footer class={footerClass} >
+			<div class="flex flex-wrap justify-center max-w-[750px]">
+				<a href="/roadmap" class="flex justify-center p-6 text-white">roadmap</a>
+				<a href="/privacy" class="flex justify-center p-6 text-white">privacy</a>
+				<a href="/terms-of-service" class="flex justify-center p-6 text-white">terms of service</a>
+				<a href="https://forms.gle/xwE1MAhu5gPa1y2r9" target="_blank" class="flex justify-center p-6 text-white">contact</a>
+			</div>
+				<div class="flex justify-center w-full p-6 mt-1">
+					<p class="text-white text-center text-xs">
+						© {new Date().getFullYear()} Unum Examen. All rights reserved.
 					</p>
 				</div>
 			</div>
-
-			<slot />
+			</footer>
+		</main>
 		</body>
-	</main>
-</html>
+
+		</html>

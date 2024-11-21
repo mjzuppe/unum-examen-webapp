@@ -1,0 +1,16 @@
+{
+    "name": "Unum Examen Webapp",
+    "image": "node:23-bookworm",
+    "runArgs": [
+        "--network=host"
+    ],
+    "forwardPorts": [
+        4321
+    ],
+    "postCreateCommand": "apt-get update && apt-get install git",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
+    ],
+    "remoteUser": "node",
+    "updateRemoteUserUID": true
+}

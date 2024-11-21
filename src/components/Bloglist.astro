@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+import FormattedDate from "../components/FormattedDate.astro";
+const posts = (await getCollection("blog")).sort(
+	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+);
+---
+<div class="flex flex-row overflow-x-auto h-128 w-full">
+
+
+    
+{posts.map((blog) => (
+<a href={`/blog/${blog.slug}`}>
+    <div class="flex flex-col xs:w-32 md:w-96 height-56 m-4 p-4 bg-slate-700 hover:bg-slate-600 focus:bg-slate-600 transition-all rounded-md shadow-sm flex-shrink-0">
+                    <h2 class="text-lg font-bold mt-1 mb-1 text-white">{blog.data.title}</h2>
+                            <p class="text-sm mt-1 mb-2"><FormattedDate date={blog.data.pubDate}></FormattedDate></p>
+        <img src={blog.data.heroImage} alt={blog.data.title} class="h-60 w-full object-cover rounded-lg" />
+        </div>
+</a>
+    ))}
+</div>

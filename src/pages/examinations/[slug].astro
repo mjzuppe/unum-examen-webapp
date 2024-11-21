@@ -1,0 +1,195 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+
+export async function getStaticPaths() {
+    const examinations = await getCollection("examination");
+    return examinations.map((examin) => ({
+        params: {
+            slug: examin.id.split("_")[0],
+            title: examin.id.split("-").join(" "),
+        },
+        props: examin,
+    }));
+}
+
+
+export function formatDemographic(input: string): string {
+  // Parse input string
+  const parts = input.toLowerCase().split(' ');
+
+
+  const sex = parts[0];
+  const ageRange = parts[1];
+  // title case maritial status
+  
+  const maritalStatus = parts[2].replace(/\b\w/g, (c) => c.toUpperCase());
+  const parentalStatus = parts.slice(3).join(' ');
+
+  // Determine person type
+  let personType = '';
+  if (sex === 'female') {
+    personType = parentalStatus.includes('no children') ? 'Woman' : 'Mother';
+  } else if (sex === 'male') {
+    personType = parentalStatus.includes('no children') ? 'Man' : 'Father';
+  } 
+
+  // Format parental information
+  const hasChildren = parentalStatus !== 'no children';
+  const withWithout = hasChildren ? 'with' : '';
+  const parentalDetails = hasChildren ? ` (${parentalStatus.replace(/\b\w/g, (c) => c.toUpperCase())})` : '';
+
+  // Construct result
+  const formatted = `${ageRange} Year-Old ${maritalStatus} ${personType} ${withWithout} ${parentalDetails}`;
+  
+  return formatted;
+}
+
+type Props = CollectionEntry<"examination">;
+const examin = Astro.props;
+const timestamp = new Date(Number(examin.id.split("_")[1]));
+const timestamp_iso = timestamp.toISOString();
+const timestamp_friendly = timestamp.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+});
+const examin_title = formatDemographic(examin.id.split("_")[0]
+                        .split("-")
+                        .join(" ")
+                        .replace(/(\d+)\s+(\d+)/g, '$1-$2'))
+
+
+---
+
+<Layout updated={timestamp_iso} title={`A Catholic confession guide for ${examin_title[0] == "1"? "an" : "a"} ${examin_title}`} description={`Prepare now to make a good confession with printable guide tailored for a ${examin_title.toLowerCase()}`}>
+    <div class="w-full flex flex-col items-center mt-12">
+        <div class="w-full text-center">
+            <h1>A Catholic Examination of Conscience</h1>
+            <h2>
+                {examin_title}
+            </h2>
+        </div>
+        <div class="m-8 max-w-4xl text-center">
+            <p class="font-light">In preparing for confession, please read through the examination questions and explanations thoughtfully, reflecting on each point and honestly identifying where you've fallen short of God's call in your life. You may click and remove any irrelevant ones as you proceed. Take mental note of any serious sins that require confession, focusing on being thorough but not scrupulous, then use these insights to make a complete and sincere confession to your priest.</p>
+        </div>
+        <p>Updated: {timestamp_friendly}</p>
+        <div
+            id="examen container"
+            class="mt-8 flex flex-col xs:w-128 lg:w-[850px] items-start p-8"
+        >
+            <div class="w-full flex justify-center mb-8 md:justify-end md:mb-0">
+                <div
+                    id="print"
+                    onclick="window.print()"
+                    class="cursor-pointer flex justify-center items-center bg-slate-500 rounded-xl w-24 p-1"
+                >
+                    <div class="mr-2">
+                        <svg
+                            width="16px"
+                            height="16px"
+                            viewBox="0 -2 32 32"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                            <g
+                                id="Page-1"
+                                stroke="none"
+                                stroke-width="1"
+                                fill="none"
+                                fill-rule="evenodd"
+                            >
+                                <g
+                                    id="Icon-Set"
+                                    transform="translate(-100.000000, -205.000000)"
+                                    fill="#FFFFFF"
+                                >
+                                    <path
+                                        d="M130,226 C130,227.104 129.104,228 128,228 L125.858,228 C125.413,226.278 123.862,225 122,225 L110,225 C108.138,225 106.587,226.278 106.142,228 L104,228 C102.896,228 102,227.104 102,226 L102,224 C102,222.896 102.896,222 104,222 L128,222 C129.104,222 130,222.896 130,224 L130,226 L130,226 Z M122,231 L110,231 C108.896,231 108,230.104 108,229 C108,227.896 108.896,227 110,227 L122,227 C123.104,227 124,227.896 124,229 C124,230.104 123.104,231 122,231 L122,231 Z M108,209 C108,207.896 108.896,207 110,207 L122,207 C123.104,207 124,207.896 124,209 L124,220 L108,220 L108,209 L108,209 Z M128,220 L126,220 L126,209 C126,206.791 124.209,205 122,205 L110,205 C107.791,205 106,206.791 106,209 L106,220 L104,220 C101.791,220 100,221.791 100,224 L100,226 C100,228.209 101.791,230 104,230 L106.142,230 C106.587,231.723 108.138,233 110,233 L122,233 C123.862,233 125.413,231.723 125.858,230 L128,230 C130.209,230 132,228.209 132,226 L132,224 C132,221.791 130.209,220 128,220 L128,220 Z"
+                                        id="print"
+                                    >
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="font-light text-sm">print</div>
+                </div>
+            </div>
+            {
+                Object.keys(examin.data).map((theme) => (
+                    <div class="mt-4 mb-4">
+                        <h3>
+                            {theme.replace(/\b\w/g, (c) => c.toUpperCase())}
+                        </h3>
+                        {examin.data[theme].map(
+                            (sample: any, index: number) => (
+                                <div
+                                    id={`row-${theme}-${index}`}
+                                    data-theme={theme}
+                                    class="flex justify-between w-full transition-opacity duration-500 mt-5"
+                                >
+                                    <div class="w-full">
+                                        <div>
+                                            <p>{sample.question}</p>
+                                        </div>
+                                        <div class="flex flex-row mt-2">
+                                            <p class="text-sm text-slate-400 examin-description">
+                                                {sample.description ||
+                                                    "no data"}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="xs:w-8 md:w-32 flex items-center remove">
+                                        <button
+                                            aria-label="remove"
+                                            class="p-1 hover:brightness-150 focus:brightness-150 transition-all"
+                                            data-theme={theme}
+                                            data-index={index}
+                                        >
+                                            <svg
+                                                fill="#ABACAB"
+                                                width="19px"
+                                                height="19px"
+                                                viewBox="-3.5 0 19 19"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path d="M11.383 13.644A1.03 1.03 0 0 1 9.928 15.1L6 11.172 2.072 15.1a1.03 1.03 0 1 1-1.455-1.456l3.928-3.928L.617 5.79a1.03 1.03 0 1 1 1.455-1.456L6 8.261l3.928-3.928a1.03 1.03 0 0 1 1.455 1.456L7.455 9.716z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            ),
+                        )}
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+    <script>
+        window.addEventListener("load", () => {
+            document
+                .querySelectorAll("button[data-theme]")
+                .forEach((button) => {
+                    button.addEventListener("click", (event) => {
+                        const button = (event.target as HTMLElement).closest(
+                            "button",
+                        );
+                        if (!button) return;
+                        const theme = button.dataset.theme;
+                        const index = button.dataset.index;
+                        const row = document.getElementById(
+                            `row-${theme}-${index}`,
+                        );
+                        if (row) {
+                            row.classList.add("opacity-0");
+                            setTimeout(() => {
+                                row.style.display = "none";
+                            }, 500);
+                        }
+                    });
+                });
+        });
+    </script>
+</Layout>
