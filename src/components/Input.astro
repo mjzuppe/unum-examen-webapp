@@ -1,4 +1,35 @@
 ---
+const demographic_parameters = {
+  "ageSex": [
+    "Male 18-24",
+    "Male 25-34",
+    "Male 35-44",
+    "Male 45-54",
+    "Male 55-64",
+    "Male 65 and over",
+    "Female 18-24",
+    "Female 25-34",
+    "Female 35-44",
+    "Female 45-54",
+    "Female 55-64",
+    "Female 65 and over"
+  ],
+  "maritalStatus": [
+    "Single",
+    "In a relationship",
+    "Married",
+    "Separated",
+    "Divorced",
+    "Widowed"
+  ],
+  "parentalStatus": [
+    "No children",
+    "Children under 18",
+    "Adult children",
+    "Both minor and adult children"
+  ]
+}
+
 
 ---
 
@@ -16,12 +47,12 @@
                 id="marital-status"
                 class="bg-transparent font-bold text-xl m-1 text-center text-[--secondary-text-color] transition duration-300 ease focus:outline-none appearance-none cursor-pointer"
             >
-                <option value="bucharest">Married</option>
-                <option value="london">Single</option>
-                <option value="london">Widowed</option>
-                <option value="london">Divorced</option>
-                <option value="london">Dating</option>
-                <option value="london">Seperated</option>
+                {demographic_parameters.maritalStatus.map(status => {
+                    if (status === "In a relationship") {
+                        return <option value={status}>Committed</option>
+                    }
+                    else return <option value={status}>{status}</option>
+                })}
             </select>
         </div>
         </div>
@@ -36,8 +67,9 @@
                 class="bg-transparent font-bold text-xl m-1 text-center text-[--secondary-text-color] transition duration-300 ease focus:outline-none appearance-none cursor-pointer"
                 id="age-sex"
                 >
-                <option value="bucharest">18-24 Male</option>
-                <option value="london">18-24 Female</option>
+                {demographic_parameters.ageSex.map(status => {
+                    return <option value={status}>{status}</option>
+                })}
             </select>
         </div>
         </div>
@@ -49,12 +81,33 @@
                     aria-label="Parental Status"
                     class="bg-transparent font-bold text-xl m-1 text-center text-[--secondary-text-color] transition duration-300 ease focus:outline-none appearance-none cursor-pointer"
                 >
-                    <option value="bucharest">with children</option>
-                    <option value="london">without children</option>
+                {demographic_parameters.parentalStatus.map(status => {
+                    if (status === "Both minor and adult children") {
+                        return <option value={status}>With Minor & Adult Children</option>
+                    }
+                    else return <option value={status}>{`With ${status.replace(/\b\w/g, (c) => c.toUpperCase())}`}</option>
+                })}
                 </select>
             </div>
-            <!-- <div class="h-10 flex items-center ml-4 mr-4 text-xl">children</div> -->
         </div>
         </div>
-    <button class="bg-[--primary-click] text-white rounded-lg p-2 mt-4 w-full">Get My Examination</button>
+    <button onclick="navigateToExamination()" id="personalize-submit" class="bg-[--primary-click] text-white hover:bg-pink-600 focus:bg-pink-500 rounded-lg p-2 mt-4 w-full">Get My Examination</button>
+    <script is:inline>
+        function navigateToExamination() {
+          // Get values from select elements
+          const ageSexElement = document.getElementById('age-sex');
+          const ageSex = ageSexElement ? ageSexElement.value : '';
+          const maritalStatusElement = document.getElementById('marital-status');
+          const maritalStatus = maritalStatusElement ? maritalStatusElement.value : '';
+          const parentalStatusElement = document.getElementById('parental-status');
+          const parentalStatus = parentalStatusElement ? parentalStatusElement.value : '';
+          
+          // Construct the URL
+          const path = `${ageSex}-${maritalStatus}-${parentalStatus}`.split(' ').join('-').toLowerCase();
+          const url = `./examinations/${path}`;
+          
+          // Navigate to the constructed URL
+          window.location.href = url;
+        }
+        </script>
 </div>
