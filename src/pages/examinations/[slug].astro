@@ -12,27 +12,64 @@ export async function getStaticPaths() {
         props: examin,
     }));
 }
+
+
+export function formatDemographic(input: string): string {
+  // Parse input string
+  const parts = input.toLowerCase().split(' ');
+
+
+  const sex = parts[0];
+  const ageRange = parts[1];
+  // title case maritial status
+  
+  const maritalStatus = parts[2].replace(/\b\w/g, (c) => c.toUpperCase());
+  const parentalStatus = parts.slice(3).join(' ');
+
+  // Determine person type
+  let personType = '';
+  if (sex === 'female') {
+    personType = parentalStatus.includes('no children') ? 'Woman' : 'Mother';
+  } else if (sex === 'male') {
+    personType = parentalStatus.includes('no children') ? 'Man' : 'Father';
+  } 
+
+  // Format parental information
+  const hasChildren = parentalStatus !== 'no children';
+  const withWithout = hasChildren ? 'with' : '';
+  const parentalDetails = hasChildren ? ` (${parentalStatus.replace(/\b\w/g, (c) => c.toUpperCase())})` : '';
+
+  // Construct result
+  const formatted = `${ageRange} Year-Old ${maritalStatus} ${personType} ${withWithout} ${parentalDetails}`;
+  
+  return formatted;
+}
+
 type Props = CollectionEntry<"examination">;
 const examin = Astro.props;
+
+const examin_title = formatDemographic(examin.id
+                        .split("-")
+                        .join(" ")
+                        .replace(/(\d+)\s+(\d+)/g, '$1-$2'))
+
+
 ---
 
-<Layout title={examin.id} description="">
+<Layout title={`A Catholic confession guide for ${examin_title[0] == "1"? "an" : "a"} ${examin_title}`} description={`Prepare now to make a good confession with printable guide tailored for a ${examin_title.toLowerCase()}`}>
     <div class="w-full flex flex-col items-center mt-12">
         <div class="w-full text-center">
             <h1>A Catholic Examination of Conscience</h1>
             <h2>
-                {
-                    examin.id
-                        .replace(/\b\w/g, (c) => c.toUpperCase())
-                        .split("-")
-                        .join(" ")
-                        .replace(/(\d+)\s+(\d+)/g, '$1-$2')
-                }
+                {examin_title}
             </h2>
+        </div>
+        <div class="m-8 max-w-4xl text-center">
+            <p class="font-light">In preparing for confession, please read through the examination questions and explanations thoughtfully, reflecting on each point and honestly identifying where you've fallen short of God's call in your life. You may click and remove any irrelevant ones as you proceed. Take mental note of any serious sins that require confession, focusing on being thorough but not scrupulous, then use these insights to make a complete and sincere confession to your priest.</p>
         </div>
         <div
             id="examen container"
-            class="mt-12 flex flex-col xs:w-128 lg:w-[850px] items-start p-8"
+            class="mt-8 flex flex-col xs:w-128 lg:w-[850px] items-start p-8"
         >
             <div class="w-full flex justify-center mb-8 md:justify-end md:mb-0">
                 <div
