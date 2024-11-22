@@ -1,0 +1,47 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import { getCollection } from "astro:content";
+const examins = (await getCollection("examination"));
+const examin_ids = examins.map((examin) => examin.id.split("_")[0]);
+
+---
+<Layout title="Directory of confession guides for Catholics" description="A listing of personalized confession guides by age, sex, maritial status, and parental status to prepare for a good confession.">
+    <div class="w-full flex flex-col items-center mt-12">
+        <div class="w-full text-center">
+            <h1>A Directory of Personalized Examinations for Confession</h1>
+        </div>
+        <div class="mt-12">
+            <h2>For Men</h2>
+            <div class="mt-4 mb-4">
+                <ul>
+                    {
+                        examin_ids.filter((id) => id.includes("male") && !id.includes("female")).map((id) => (
+                            <li>
+                                <a href={`/examinations/${id}/`}>
+                                    {id.split("-").join(" ")}
+                                </a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>For Women</h2>
+            <div class="mt-4 mb-4">
+                <ul>
+                    {
+                        examin_ids.filter((id) => id.includes("female")).map((id) => (
+                            <li>
+                                <a href={`/examinations/${id}/`}>
+                                    {id.split("-").join(" ")}
+                                </a>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</Layout>
