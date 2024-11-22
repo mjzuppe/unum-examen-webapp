@@ -17,13 +17,15 @@ export async function getStaticPaths() {
 export function formatDemographic(input: string): string {
   // Parse input string
   const parts = input.toLowerCase().split(' ');
-
-
+  if (input.includes("relationship")) {
+    parts.splice(2, 3, "in a relationship");
+  }
   const sex = parts[0];
   const ageRange = parts[1];
-  // title case maritial status
-  
-  const maritalStatus = parts[2].replace(/\b\w/g, (c) => c.toUpperCase());
+
+  let maritalStatus = parts[2]
+  if (maritalStatus.includes("relationship")) maritalStatus = "committed";
+  maritalStatus = maritalStatus.replace(/\b\w/g, (c) => c.toUpperCase());
   const parentalStatus = parts.slice(3).join(' ');
 
   // Determine person type
@@ -37,7 +39,7 @@ export function formatDemographic(input: string): string {
   // Format parental information
   const hasChildren = parentalStatus !== 'no children';
   const withWithout = hasChildren ? 'with' : '';
-  const parentalDetails = hasChildren ? ` (${parentalStatus.replace(/\b\w/g, (c) => c.toUpperCase())})` : '';
+  const parentalDetails = hasChildren ? ` ${parentalStatus.replace(/\b\w/g, (c) => c.toUpperCase())}` : '';
 
   // Construct result
   const formatted = `${ageRange} Year-Old ${maritalStatus} ${personType} ${withWithout} ${parentalDetails}`;

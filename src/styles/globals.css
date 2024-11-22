@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: #10030c;
@@ -80,6 +81,7 @@
   }
   h3 {
     font-size: 1.5em;
+    line-height: 1.5em;
   }
   a {
     color: var(--text-color);
@@ -103,6 +105,13 @@
   }
 
 }
+
+@layer utilities{
+  .text-align-last{
+      text-align-last: center;
+  }
+}
+
 
 @media print {
   * {
