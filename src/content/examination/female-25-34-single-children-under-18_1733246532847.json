@@ -1,0 +1,3476 @@
+{
+  "disobedience": [
+    {
+      "extracted_data_verb": "Was",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "parents",
+      "extracted_data_phrases": [
+        "to my parents",
+        "by willfully refusing their lawful requests",
+        "at the time"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 401,
+      "question": "Was I disobedient to my parents by willfully refusing their lawful requests, even if it seemed insignificant at the time?",
+      "description": "As per the fourth commandment, it's a child's duty to respond to parental love, wisdom, and respect with obedience.",
+      "parameters_sinGeneric": false,
+      "parent_id": 1,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "Was",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "parents",
+      "extracted_data_phrases": [
+        "to my parents",
+        "by refusing to follow their instructions",
+        "to"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 407,
+      "question": "Was I disobedient to my parents by refusing to follow their instructions?",
+      "description": "As per the fourth commandment, it's a child's duty to respond to parental love, wisdom, and respect with obedience.",
+      "parameters_sinGeneric": false,
+      "parent_id": 1,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reject",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "unity",
+      "extracted_data_phrases": [
+        "of the Catholic Church",
+        "with individuals within",
+        "within",
+        "with human imperfections"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 4943,
+      "question": "Did I reject the unity of the Catholic Church when frustrated with individuals within, confusing its divine nature and eternal truths with human imperfections?",
+      "description": "Rejecting Church unity due to frustration with individuals is sinful because it confuses the Church's divine nature and eternal truths with the human imperfections of its members, while also violating Christ's prayer \"that they may all be one.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 12,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reject",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of the Church",
+        "towards others",
+        "in your community"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 4944,
+      "question": "Did you reject the unity of the Church when experiencing frustration towards others in your community?",
+      "description": "Rejecting Church unity due to frustration with individuals is sinful because it confuses the Church's divine nature and eternal truths with the human imperfections of its members, while also violating Christ's prayer \"that they may all be one.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 12,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reject",
+      "extracted_data_noun_modifiers": "their",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "unity",
+      "extracted_data_phrases": [
+        "towards individuals within the Church",
+        "within the Church"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 4948,
+      "question": "When I had negative feelings towards individuals within the Church, did I reject their unity?",
+      "description": "Rejecting Church unity due to frustration with individuals is sinful because it confuses the Church's divine nature and eternal truths with the human imperfections of its members, while also violating Christ's prayer \"that they may all be one.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 12,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "skip",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "on Ash Wednesday",
+        "for self - denial",
+        "during sacred times"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 7777,
+      "question": "Did you intentionally skip an obligatory fast on Ash Wednesday, disregarding the Church's guidelines for self-denial during sacred times?",
+      "description": "This is considered sinful because deliberately disregarding prescribed days of fasting represents disobedience to Church authority and fails to honor our spiritual obligation to practice self-denial and penance during sacred times.",
+      "parameters_sinGeneric": false,
+      "parent_id": 17,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "speak",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "disrespectfully",
+      "extracted_data_noun": null,
+      "extracted_data_phrases": [
+        "about the Church"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 19391,
+      "question": "Did I speak disrespectfully about the Church?",
+      "description": "Mocking the church shows contempt for Christ's established institution on earth, disrespects the Body of Christ, and undermines the Church's divine authority as guided by the Holy Spirit.",
+      "parameters_sinGeneric": false,
+      "parent_id": 46,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "speak",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "publicly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "against the Church"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 19393,
+      "question": "Did you publicly speak against the Church?",
+      "description": "Mocking the church shows contempt for Christ's established institution on earth, disrespects the Body of Christ, and undermines the Church's divine authority as guided by the Holy Spirit.",
+      "parameters_sinGeneric": false,
+      "parent_id": 46,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "words",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 19396,
+      "question": "Did I use my words to belittle the Church?",
+      "description": "Mocking the church shows contempt for Christ's established institution on earth, disrespects the Body of Christ, and undermines the Church's divine authority as guided by the Holy Spirit.",
+      "parameters_sinGeneric": false,
+      "parent_id": 46,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "shown",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "disrespect",
+      "extracted_data_phrases": [
+        "through my actions and attitudes"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 34721,
+      "question": "Have I shown disrespect to my mother through my actions and attitudes?",
+      "description": "Respecting parental authority helps maintain proper order in families and society, and that parents deserve honor for their role in giving life, nurturing, and forming their children in faith and virtue.",
+      "parameters_sinGeneric": false,
+      "parent_id": 76,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "dishonored",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "mother",
+      "extracted_data_phrases": [
+        "through my actions and attitudes ,",
+        "by refusing to show them respect and obedience in our daily interactions",
+        "to",
+        "in our daily interactions"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 34725,
+      "question": "Have I, through my actions and attitudes, dishonored my mother and father by refusing to show them respect and obedience in our daily interactions?",
+      "description": "Respecting parental authority helps maintain proper order in families and society, and that parents deserve honor for their role in giving life, nurturing, and forming their children in faith and virtue.",
+      "parameters_sinGeneric": false,
+      "parent_id": 76,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "shown",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "disrespect",
+      "extracted_data_phrases": [
+        "through my actions towards her",
+        "towards her",
+        "to",
+        "in giving me life"
+      ],
+      "parameters_sinTheme": "disobedience",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 34728,
+      "question": "Have I shown disrespect to my mother through my actions towards her, or have I neglected to show the honor and obedience that she deserves due to her role in giving me life?",
+      "description": "Respecting parental authority helps maintain proper order in families and society, and that parents deserve honor for their role in giving life, nurturing, and forming their children in faith and virtue.",
+      "parameters_sinGeneric": false,
+      "parent_id": 76,
+      "demographic_id": 146
+    }
+  ],
+  "condoning": [
+    {
+      "extracted_data_verb": "condoned",
+      "extracted_data_noun_modifiers": "other",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Catholics",
+      "extracted_data_phrases": [
+        "through my words",
+        "from staying away from Sacraments or Mass",
+        "from Sacraments or Mass"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 1059,
+      "question": "Have I, through my words, condoned other Catholics from staying away from Sacraments or Mass?",
+      "description": "One of the spiritual works of mercy is to admonish the sinner and to correct them out of love and charity instead of condoning sin.",
+      "parameters_sinGeneric": false,
+      "parent_id": 3,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "allow",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Sacraments",
+      "extracted_data_phrases": [
+        "from Sacraments or Mass",
+        "without correcting them"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 1063,
+      "question": "Did I allow other Catholics to stay away from Sacraments or Mass without correcting them?",
+      "description": "One of the spiritual works of mercy is to admonish the sinner and to correct them out of love and charity instead of condoning sin.",
+      "parameters_sinGeneric": false,
+      "parent_id": 3,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "lead",
+      "extracted_data_noun_modifiers": "other",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Catholics",
+      "extracted_data_phrases": [
+        "into spiritual danger",
+        "by failing to advise them against missing Mass",
+        "to",
+        "against missing Mass"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 1066,
+      "question": "Did I lead other Catholics into spiritual danger by failing to advise them against missing Mass?",
+      "description": "One of the spiritual works of mercy is to admonish the sinner and to correct them out of love and charity instead of condoning sin.",
+      "parameters_sinGeneric": false,
+      "parent_id": 3,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "permit",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "child",
+      "extracted_data_phrases": [
+        "to",
+        "in error",
+        "by withholding guidance and correction for the sake of avoiding uncomfortable conversations",
+        "for the sake of avoiding uncomfortable conversations",
+        "of avoiding uncomfortable conversations"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "omission",
+      "id": 6067,
+      "question": "Did I permit my child to continue in error by withholding guidance and correction for the sake of avoiding uncomfortable conversations?",
+      "description": "Permitting a child to continue in error by avoiding difficult conversations is sinful because it neglects our God-given parental duty to guide and form our children's moral and spiritual development, placing our own comfort above their eternal wellbeing.",
+      "parameters_sinGeneric": false,
+      "parent_id": 14,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "permit",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "child",
+      "extracted_data_phrases": [
+        "to",
+        "in a wrong decision",
+        "to",
+        "due to fear of confrontation",
+        "of confrontation"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 6074,
+      "question": "Did I permit my child to persist in a wrong decision, choosing not to address it due to fear of confrontation?",
+      "description": "Permitting a child to continue in error by avoiding difficult conversations is sinful because it neglects our God-given parental duty to guide and form our children's moral and spiritual development, placing our own comfort above their eternal wellbeing.",
+      "parameters_sinGeneric": false,
+      "parent_id": 14,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "condone",
+      "extracted_data_noun_modifiers": "funeral",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "service",
+      "extracted_data_phrases": [
+        "to",
+        "for the deceased"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 12999,
+      "question": "Did I condone a funeral service that failed to provide proper burial for the deceased?",
+      "description": "Failing to advocate for proper burial of human remains is considered sinful as the Church teaches that the body is sacred and deserves reverent burial, with scattering or keeping remains being contrary to the dignity of the human body and resurrection belief.",
+      "parameters_sinGeneric": false,
+      "parent_id": 33,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "permit",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "child",
+      "extracted_data_phrases": [
+        "to bad influences",
+        "through their involvement in certain activities",
+        "in certain activities"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 18532,
+      "question": "Did I permit my child to be exposed to bad influences through their involvement in certain activities?",
+      "description": "Parents have to protect their children's well-being, guarding them from harmful elements that could damage their faith or lead them into sin.",
+      "parameters_sinGeneric": false,
+      "parent_id": 44,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "give",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "consent",
+      "extracted_data_phrases": [
+        "to another Catholic marrying outside the Church through my words",
+        "outside the Church",
+        "through my words"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 23942,
+      "question": "Did I give my consent to another Catholic marrying outside the Church through my words?",
+      "description": "Marriage is a sacrament within the Catholic faith and thus giving approval and not admonishing the action gives scandal by condoning.",
+      "parameters_sinGeneric": false,
+      "parent_id": 54,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "words",
+      "extracted_data_phrases": [
+        "to",
+        "by giving them false hope or misleading them about its morality",
+        "about its morality"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 35495,
+      "question": "Did I use my words to endorse or justify abortion or euthanasia, thereby hurting others by giving them false hope or misleading them about its morality?",
+      "description": "It's sinful to condone sinful behavior and fail to admonish such sinful actions, especially a grave act that would take a life.",
+      "parameters_sinGeneric": false,
+      "parent_id": 78,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "used",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "ever",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 35496,
+      "question": "Have you ever used your words to endorse or justify abortion or euthanasia?",
+      "description": "It's sinful to condone sinful behavior and fail to admonish such sinful actions, especially a grave act that would take a life.",
+      "parameters_sinGeneric": false,
+      "parent_id": 78,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "endorse",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "through your words"
+      ],
+      "parameters_sinTheme": "condoning",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 35498,
+      "question": "Did you, through your words, endorse or justify abortion?",
+      "description": "It's sinful to condone sinful behavior and fail to admonish such sinful actions, especially a grave act that would take a life.",
+      "parameters_sinGeneric": false,
+      "parent_id": 78,
+      "demographic_id": 146
+    }
+  ],
+  "uncharity": [
+    {
+      "extracted_data_verb": "turn",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "away",
+      "extracted_data_noun": "hardship",
+      "extracted_data_phrases": [
+        "from those who are experiencing hardship , including strangers and the displaced",
+        "including strangers and the displaced"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 1838,
+      "question": "Do I turn away from those who are experiencing hardship, including strangers and the displaced?",
+      "description": "Per the corporal works of mercy, we are to love our neighbors by feeding the hungry and sheltering the homeless and respecting their dignity especially in times of hardship.",
+      "parameters_sinGeneric": false,
+      "parent_id": 5,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "look",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "down",
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "upon others based on their job , nationality , or other trait",
+        "on their job , nationality , or other trait"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 2378,
+      "question": "Do I look down upon others based on their job, nationality, or other trait?",
+      "description": "This sin dehumanizes people on the margins when we are called to love each other as a child of God as Jesus loved us.",
+      "parameters_sinGeneric": false,
+      "parent_id": 6,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "look",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "down",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "upon others based on their job , nationality , or other trait",
+        "on their job , nationality , or other trait"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 2381,
+      "question": "Do you look down upon others based on their job, nationality, or other trait?",
+      "description": "This sin dehumanizes people on the margins when we are called to love each other as a child of God as Jesus loved us.",
+      "parameters_sinGeneric": false,
+      "parent_id": 6,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "look",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "down",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "upon others based on their job , nationality , or other trait",
+        "on their job , nationality , or other trait"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 2384,
+      "question": "Do you look down upon others based on their job, nationality, or other trait?",
+      "description": "This sin dehumanizes people on the margins when we are called to love each other as a child of God as Jesus loved us.",
+      "parameters_sinGeneric": false,
+      "parent_id": 6,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "put",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": "ahead",
+      "extracted_data_noun": "interests",
+      "extracted_data_phrases": [
+        "of others ' needs in our community events or volunteer work",
+        "in our community events or volunteer work"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 8234,
+      "question": "Did I put my own interests ahead of others' needs in our community events or volunteer work?",
+      "description": "This is considered sinful because excessive self-focus and selfishness violates Christ's command to love our neighbors as ourselves and contradicts the Christian call to practice charity, compassion, and self-sacrifice for others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 18,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "put",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": "ahead",
+      "extracted_data_noun": "needs",
+      "extracted_data_phrases": [
+        "of others",
+        "in my pursuit of personal growth , career advancement , or financial goals",
+        "of personal growth , career advancement , or financial goals"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 8238,
+      "question": "Did I put my own needs ahead of others in my pursuit of personal growth, career advancement, or financial goals?",
+      "description": "This is considered sinful because excessive self-focus and selfishness violates Christ's command to love our neighbors as ourselves and contradicts the Christian call to practice charity, compassion, and self-sacrifice for others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 18,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "prioritize",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "needs",
+      "extracted_data_phrases": [
+        "over the well - being of those around me",
+        "of those around me",
+        "around me",
+        "especially in situations where their needs may have conflicted with my desires",
+        "with my desires"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 8241,
+      "question": "Did I prioritize my own needs over the well-being of those around me, especially in situations where their needs may have conflicted with my desires?",
+      "description": "This is considered sinful because excessive self-focus and selfishness violates Christ's command to love our neighbors as ourselves and contradicts the Christian call to practice charity, compassion, and self-sacrifice for others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 18,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "treat",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in God 's image",
+        "with disrespect",
+        "through your thoughts and words"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 9174,
+      "question": "Do you treat others, created in God's image, with disrespect through your thoughts and words?",
+      "description": "Treating others with disrespect denies their inherent dignity as beings created in God's image and violates Christ's command to love one another as He has loved us.",
+      "parameters_sinGeneric": false,
+      "parent_id": 20,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "permit",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "someone",
+      "extracted_data_phrases": null,
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 16812,
+      "question": "Did I permit someone else to be treated unfairly?",
+      "description": "This sin violates the principles of justice, charity, and our moral obligation to defend human dignity and protect our neighbors from harm when we have the ability to intervene.",
+      "parameters_sinGeneric": false,
+      "parent_id": 41,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "permit",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": null,
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 16816,
+      "question": "Did I permit others to be treated unfairly?",
+      "description": "This sin violates the principles of justice, charity, and our moral obligation to defend human dignity and protect our neighbors from harm when we have the ability to intervene.",
+      "parameters_sinGeneric": false,
+      "parent_id": 41,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "helped",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "to",
+        "to",
+        "in genuine need"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 25051,
+      "question": "Have I not helped others when they needed help? Am I sometimes unwilling to lend a hand or use my skills and resources to support those in genuine need?",
+      "description": "Refusing to help those in need violates Jesus's direct command to love our neighbor and practice the works of mercy, as illustrated in the parable of the Good Samaritan.",
+      "parameters_sinGeneric": false,
+      "parent_id": 56,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "neglected",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "need",
+      "extracted_data_phrases": [
+        "to",
+        "in need"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 25054,
+      "question": "Have I not neglected to assist those in need, especially when they were actively seeking my help?",
+      "description": "Refusing to help those in need violates Jesus's direct command to love our neighbor and practice the works of mercy, as illustrated in the parable of the Good Samaritan.",
+      "parameters_sinGeneric": false,
+      "parent_id": 56,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "shown",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "compassion",
+      "extracted_data_phrases": [
+        "in need",
+        "particularly in situations where people are struggling financially"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 26532,
+      "question": "Have I shown compassion and practical assistance to those in need, particularly in situations where people are struggling financially, facing health challenges, or experiencing emotional distress?",
+      "description": "Failing to help those in need violates Christ's direct command to love our neighbor and care for the poor, effectively refusing to recognize Jesus Himself in the suffering of others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 59,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "shown",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "compassion",
+      "extracted_data_phrases": [
+        "in my daily life , family , friends , and community"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 26536,
+      "question": "Have I shown compassion and practical assistance to those in my daily life, family, friends, and community?",
+      "description": "Failing to help those in need violates Christ's direct command to love our neighbor and care for the poor, effectively refusing to recognize Jesus Himself in the suffering of others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 59,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "shown",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "compassion",
+      "extracted_data_phrases": [
+        "in my community",
+        "such as neighbors , acquaintances , or individuals in need , who have been affected by various life circumstances",
+        "in need"
+      ],
+      "parameters_sinTheme": "uncharity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 26538,
+      "question": "Have I shown compassion and practical assistance to those in my community, such as neighbors, acquaintances, or individuals in need, who have been affected by various life circumstances?",
+      "description": "Failing to help those in need violates Christ's direct command to love our neighbor and care for the poor, effectively refusing to recognize Jesus Himself in the suffering of others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 59,
+      "demographic_id": 146
+    }
+  ],
+  "lukewarmness": [
+    {
+      "extracted_data_verb": "Am",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "faith",
+      "extracted_data_phrases": [
+        "in growing in my faith",
+        "in my faith"
+      ],
+      "parameters_sinTheme": "lukewarmness",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 2867,
+      "question": "Am I uninterested in growing in my faith?",
+      "description": "Lukewarmness in spiritual growth is sinful because one essentially chooses comfort and mediocrity over the transformative love God offers, which Jesus specifically warned against in Revelation 3:16.",
+      "parameters_sinGeneric": false,
+      "parent_id": 7,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "Am",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": null,
+      "extracted_data_phrases": [
+        "in growing spiritually"
+      ],
+      "parameters_sinTheme": "lukewarmness",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 2868,
+      "question": "Am I uninterested in growing spiritually?",
+      "description": "Lukewarmness in spiritual growth is sinful because one essentially chooses comfort and mediocrity over the transformative love God offers, which Jesus specifically warned against in Revelation 3:16.",
+      "parameters_sinGeneric": false,
+      "parent_id": 7,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "Am",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "opportunities",
+      "extracted_data_phrases": [
+        "in growing spiritually despite having opportunities to do so",
+        "despite having opportunities to do so"
+      ],
+      "parameters_sinTheme": "lukewarmness",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 2871,
+      "question": "Am I uninterested in growing spiritually despite having opportunities to do so?",
+      "description": "Lukewarmness in spiritual growth is sinful because one essentially chooses comfort and mediocrity over the transformative love God offers, which Jesus specifically warned against in Revelation 3:16.",
+      "parameters_sinGeneric": false,
+      "parent_id": 7,
+      "demographic_id": 146
+    }
+  ],
+  "merciless": [
+    {
+      "extracted_data_verb": "speak",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "harshly",
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "to others",
+        "in my words"
+      ],
+      "parameters_sinTheme": "merciless",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 3206,
+      "question": "Did I speak harshly to others, condemning them in my words?",
+      "description": "Condemning others is a sin of mercilessness because it places oneself in God's role as judge and denies others the same mercy and forgiveness that God extends to all of us. ",
+      "parameters_sinGeneric": false,
+      "parent_id": 8,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "condemned",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "through my words",
+        "in social media posts , conversations , or online forums"
+      ],
+      "parameters_sinTheme": "merciless",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 3211,
+      "question": "Have I condemned others through my words, particularly when criticizing or judging people in social media posts, conversations, or online forums?",
+      "description": "Condemning others is a sin of mercilessness because it places oneself in God's role as judge and denies others the same mercy and forgiveness that God extends to all of us. ",
+      "parameters_sinGeneric": false,
+      "parent_id": 8,
+      "demographic_id": 146
+    }
+  ],
+  "callousness": [
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "to"
+      ],
+      "parameters_sinTheme": "callousness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 3587,
+      "question": "Did you fail to use your means to help someone who was suffering?",
+      "description": "As part of the corporal works of mercy, we're called to be merciful and compassionate to those in distress.",
+      "parameters_sinGeneric": false,
+      "parent_id": 9,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "means",
+      "extracted_data_phrases": [
+        "to",
+        "to their distress"
+      ],
+      "parameters_sinTheme": "callousness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 3592,
+      "question": "Did I fail to help someone who was suffering when I had the means to do so, and perhaps neglected them or turned a blind eye to their distress?",
+      "description": "As part of the corporal works of mercy, we're called to be merciful and compassionate to those in distress.",
+      "parameters_sinGeneric": false,
+      "parent_id": 9,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "turn",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "away",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "from someone who was ill"
+      ],
+      "parameters_sinTheme": "callousness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 17351,
+      "question": "Did you turn away from someone who was ill?",
+      "description": "This is sinful because it violates Jesus's direct command to care for the sick (Matthew 25:36) and fails to fulfill our fundamental Christian duty to show compassion and mercy to those who are suffering.",
+      "parameters_sinGeneric": false,
+      "parent_id": 42,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "turn",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "away",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "from helping someone who was experiencing physical distress"
+      ],
+      "parameters_sinTheme": "callousness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 17354,
+      "question": "Did you turn away from helping someone who was experiencing physical distress?",
+      "description": "This is sinful because it violates Jesus's direct command to care for the sick (Matthew 25:36) and fails to fulfill our fundamental Christian duty to show compassion and mercy to those who are suffering.",
+      "parameters_sinGeneric": false,
+      "parent_id": 42,
+      "demographic_id": 146
+    }
+  ],
+  "sloth": [
+    {
+      "extracted_data_verb": "withhold",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "from those who were suffering",
+        "within your power to provide aid"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 3981,
+      "question": "Did you intentionally withhold your assistance from those who were suffering, even when it was within your power to provide aid?",
+      "description": "Neglecting the sick violates Jesus's direct command to care for the ill as if they were Christ himself.",
+      "parameters_sinGeneric": false,
+      "parent_id": 10,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "failed",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "child",
+      "extracted_data_phrases": [
+        "to",
+        "toward knowing Christ , particularly in moments when they sought guidance ,",
+        "particularly in moments when they sought guidance ,",
+        "by not taking the time to teach them about their faith",
+        "about their faith"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 17888,
+      "question": "Have I failed to guide my child toward knowing Christ, particularly in moments when they sought guidance, by not taking the time to teach them about their faith?",
+      "description": "Parents have the duty to be the first teachers of faith to their children, as promised in their child's baptism and outlined in Church teaching as the fundamental responsibility of Christian parenthood.",
+      "parameters_sinGeneric": false,
+      "parent_id": 43,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "failed",
+      "extracted_data_noun_modifiers": "regular spiritual",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "conversations",
+      "extracted_data_phrases": [
+        "to",
+        "with my child",
+        "of Christ"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "omission",
+      "id": 17891,
+      "question": "Have I failed to establish regular spiritual conversations with my child, thereby neglecting our shared faith and responsibility to deepen their understanding of Christ?",
+      "description": "Parents have the duty to be the first teachers of faith to their children, as promised in their child's baptism and outlined in Church teaching as the fundamental responsibility of Christian parenthood.",
+      "parameters_sinGeneric": false,
+      "parent_id": 43,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "neglected",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "child",
+      "extracted_data_phrases": [
+        "to",
+        "in our daily interactions"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 17895,
+      "question": "Have I neglected to prioritize my child's spiritual development in our daily interactions?",
+      "description": "Parents have the duty to be the first teachers of faith to their children, as promised in their child's baptism and outlined in Church teaching as the fundamental responsibility of Christian parenthood.",
+      "parameters_sinGeneric": false,
+      "parent_id": 43,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "put",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": "ahead",
+      "extracted_data_noun": "interests",
+      "extracted_data_phrases": [
+        "In what ways",
+        "of the genuine needs and wellbeing of those entrusted to me",
+        "of those entrusted to me",
+        "to me"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 40736,
+      "question": "In what ways have I put my own interests ahead of the genuine needs and wellbeing of those entrusted to me?",
+      "description": "Neglecting family duties is considered sinful because it violates both divine law and natural law, where God entrusts us with specific responsibilities to nurture, protect, and care for our family members as part of our fundamental Christian vocation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 88,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "put",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": "ahead",
+      "extracted_data_noun": "needs",
+      "extracted_data_phrases": [
+        "In what ways",
+        "of taking genuine care of myself and",
+        "of myself and"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 40739,
+      "question": "In what ways have I put my own needs and desires ahead of taking genuine care of myself and my child's true well-being?",
+      "description": "Neglecting family duties is considered sinful because it violates both divine law and natural law, where God entrusts us with specific responsibilities to nurture, protect, and care for our family members as part of our fundamental Christian vocation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 88,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "child",
+      "extracted_data_phrases": [
+        "to",
+        "by neglecting their education"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "omission",
+      "id": 41311,
+      "question": "Did I fail to prioritize my child's spiritual development by neglecting their education?",
+      "description": "Parents have a primary and sacred duty to pass on the faith to their children, as they are considered their children's first and most important religious teachers who are directly responsible for their spiritual formation and eternal salvation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 89,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": "spiritual",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "instruction",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "omission",
+      "id": 41314,
+      "question": "Did I fail to provide spiritual instruction to my child?",
+      "description": "Parents have a primary and sacred duty to pass on the faith to their children, as they are considered their children's first and most important religious teachers who are directly responsible for their spiritual formation and eternal salvation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 89,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "deprioritize",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "on a Sunday or Holy Day of Obligation for personal interests , convenience , or worldly commitments",
+        "of Obligation",
+        "for personal interests , convenience , or worldly commitments"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 44335,
+      "question": "Did you deprioritize attending Mass on a Sunday or Holy Day of Obligation for personal interests, convenience, or worldly commitments?",
+      "description": "deliberately choosing to skip Mass for non-serious reasons shows disobedience to Church authority, ingratitude for Christ's sacrifice, and places worldly priorities above our highest obligation to worship God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 94,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "deprioritize",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "errands",
+      "extracted_data_phrases": [
+        "on a Sunday or Holy Day of Obligation",
+        "of Obligation",
+        "by choosing to sleep in",
+        "to",
+        "in leisure activities"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 44337,
+      "question": "Did I deprioritize attending Mass on a Sunday or Holy Day of Obligation by choosing to sleep in, run errands, or engage in leisure activities instead?",
+      "description": "deliberately choosing to skip Mass for non-serious reasons shows disobedience to Church authority, ingratitude for Christ's sacrifice, and places worldly priorities above our highest obligation to worship God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 94,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "deprioritize",
+      "extracted_data_noun_modifiers": "Sunday",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Mass",
+      "extracted_data_phrases": [
+        "above my highest obligation to worship God"
+      ],
+      "parameters_sinTheme": "sloth",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 44340,
+      "question": "Did I deprioritize Sunday Mass, placing worldly priorities above my highest obligation to worship God?",
+      "description": "deliberately choosing to skip Mass for non-serious reasons shows disobedience to Church authority, ingratitude for Christ's sacrifice, and places worldly priorities above our highest obligation to worship God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 94,
+      "demographic_id": 146
+    }
+  ],
+  "vainglory": [
+    {
+      "extracted_data_verb": "seek",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "for sharing your financial resources"
+      ],
+      "parameters_sinTheme": "vainglory",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 4427,
+      "question": "Did you seek praise for sharing your financial resources?",
+      "description": "Seeking praise for charitable giving is sinful because it transforms an act meant to glorify God and help others into an exercise of pride and self-glorification.",
+      "parameters_sinGeneric": false,
+      "parent_id": 11,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "Am",
+      "extracted_data_noun_modifiers": "online my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "reputation",
+      "extracted_data_phrases": [
+        "on defending my online reputation and gaining social media respect than pleasing God",
+        "than pleasing God"
+      ],
+      "parameters_sinTheme": "vainglory",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 21244,
+      "question": "Am I more focused on defending my online reputation and gaining social media respect than pleasing God?",
+      "description": "Vainglory corrupts our good actions by doing them for human acclaim rather than for God's glory, making us slaves to others' opinions rather than true servants of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 49,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "Am",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "recognition",
+      "extracted_data_phrases": [
+        "on gaining recognition and admiration from others than pleasing God through my actions",
+        "from others",
+        "than pleasing God through my actions",
+        "through my actions"
+      ],
+      "parameters_sinTheme": "vainglory",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 21249,
+      "question": "Am I more focused on gaining recognition and admiration from others than pleasing God through my actions?",
+      "description": "Vainglory corrupts our good actions by doing them for human acclaim rather than for God's glory, making us slaves to others' opinions rather than true servants of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 49,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "distance",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "publicly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "from your faith",
+        "with social pressure or discomfort"
+      ],
+      "parameters_sinTheme": "vainglory",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 38393,
+      "question": "Did you publicly distance yourself from your faith when faced with social pressure or discomfort?",
+      "description": "This is a public betrayal of Jesus' teaching that \"whoever denies me before men, I will also deny before my Father who is in heaven,\" effectively choosing human respect over fidelity to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 84,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "distance",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "publicly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "from your faith",
+        "with social pressure or discomfort that led to vainglory",
+        "to vainglory",
+        "over fidelity",
+        "to God"
+      ],
+      "parameters_sinTheme": "vainglory",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "words",
+      "id": 38398,
+      "question": "Did you publicly distance yourself from your faith when faced with social pressure or discomfort that led to vainglory, choosing human respect over fidelity to God?",
+      "description": "This is a public betrayal of Jesus' teaching that \"whoever denies me before men, I will also deny before my Father who is in heaven,\" effectively choosing human respect over fidelity to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 84,
+      "demographic_id": 146
+    }
+  ],
+  "theft": [
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 5566,
+      "question": "Did you intentionally fail to pay your debts?",
+      "description": "Intentionally failing to pay debts is sinful because it violates both the seventh commandment against theft and the principle of justice that requires honoring our commitments to others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 13,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 5570,
+      "question": "Did you intentionally fail to pay debts owed to others?",
+      "description": "Intentionally failing to pay debts is sinful because it violates both the seventh commandment against theft and the principle of justice that requires honoring our commitments to others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 13,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "from others"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "omission",
+      "id": 5574,
+      "question": "Did you intentionally fail to pay your debts, thereby withholding from others what is rightfully theirs?",
+      "description": "Intentionally failing to pay debts is sinful because it violates both the seventh commandment against theft and the principle of justice that requires honoring our commitments to others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 13,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "help",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "from them"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 7296,
+      "question": "Did I help others steal from them?",
+      "description": "While not stealing yourself, this sin still participates in breaking the seventh commandment and shows disregard for others' rightful property and dignity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 16,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "help",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in breaking the seventh commandment"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 7300,
+      "question": "Did you help others steal? \n\nWhile not personally stealing yourself, this sin still participates in breaking the seventh commandment and shows disregard for others' rightful property and dignity.",
+      "description": "While not stealing yourself, this sin still participates in breaking the seventh commandment and shows disregard for others' rightful property and dignity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 16,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "taken",
+      "extracted_data_noun_modifiers": "its",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "value",
+      "extracted_data_phrases": [
+        "to me",
+        "of its value"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 34112,
+      "question": "Have I taken or kept anything that does not belong to me, regardless of its value?",
+      "description": "Theft disrespects the human dignity and property rights of others, breaks trust within communities, and demonstrates both greed and a lack of trust in God's providence.",
+      "parameters_sinGeneric": false,
+      "parent_id": 75,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "avoid",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "advantage",
+      "extracted_data_phrases": [
+        "of others",
+        "by paying them less than what they deserved",
+        "than what they deserved"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 40046,
+      "question": "Did I avoid taking advantage of others by paying them less than what they deserved?",
+      "description": "Failing to pay a fair wage or price is a sin because it violates both the seventh commandment against stealing and the principle of social justice.",
+      "parameters_sinGeneric": false,
+      "parent_id": 87,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "avoid",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "particularly in business dealings where fairness is expected"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 40051,
+      "question": "Did I avoid paying others a fair price or wage, particularly in business dealings where fairness is expected?",
+      "description": "Failing to pay a fair wage or price is a sin because it violates both the seventh commandment against stealing and the principle of social justice.",
+      "parameters_sinGeneric": false,
+      "parent_id": 87,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "avoid",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "in my business dealings"
+      ],
+      "parameters_sinTheme": "theft",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 40053,
+      "question": "Did I avoid paying others a fair price in my business dealings?",
+      "description": "Failing to pay a fair wage or price is a sin because it violates both the seventh commandment against stealing and the principle of social justice.",
+      "parameters_sinGeneric": false,
+      "parent_id": 87,
+      "demographic_id": 146
+    }
+  ],
+  "false witness": [
+    {
+      "extracted_data_verb": "misrepresent",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "myself",
+      "extracted_data_phrases": [
+        "to",
+        "in my personal relationships or career pursuits"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 6611,
+      "question": "Did I misrepresent myself to gain an advantage in my personal relationships or career pursuits?",
+      "description": "This is considered sinful because deliberately deceiving others for personal gain violates the eighth commandment against bearing false witness and breaks trust in human relationships while failing to reflect Christian virtues of honesty and integrity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 15,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "misrepresent",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "myself",
+      "extracted_data_phrases": [
+        "to",
+        "in a way that bears false witness against others through my words",
+        "against others",
+        "through my words"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 6613,
+      "question": "Did I misrepresent myself to gain an advantage in a way that bears false witness against others through my words?",
+      "description": "This is considered sinful because deliberately deceiving others for personal gain violates the eighth commandment against bearing false witness and breaks trust in human relationships while failing to reflect Christian virtues of honesty and integrity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 15,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "misrepresent",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "myself",
+      "extracted_data_phrases": [
+        "to others",
+        "for personal gain"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 6617,
+      "question": "Did I misrepresent myself to others for personal gain?",
+      "description": "This is considered sinful because deliberately deceiving others for personal gain violates the eighth commandment against bearing false witness and breaks trust in human relationships while failing to reflect Christian virtues of honesty and integrity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 15,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "speak",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "falsely",
+      "extracted_data_noun": null,
+      "extracted_data_phrases": [
+        "against another"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 13203,
+      "question": "Did I speak falsely against another?",
+      "description": "Slander deliberately damages another person's reputation through false statements, violating both the Eighth Commandment against bearing false witness and Christ's command to love our neighbor.",
+      "parameters_sinGeneric": false,
+      "parent_id": 34,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "deceived",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": null,
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 13553,
+      "question": "Have I deceived others?",
+      "description": "Deceiving others is a form of bearing false witness, damages trust between people, and breaks down human relationships that should reflect God's truth and love.",
+      "parameters_sinGeneric": false,
+      "parent_id": 35,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "deceived",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "by providing false information about my personal life , relationships , or accomplishments",
+        "about my personal life , relationships , or accomplishments"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 13557,
+      "question": "Have I deceived others by providing false information about my personal life, relationships, or accomplishments?",
+      "description": "Deceiving others is a form of bearing false witness, damages trust between people, and breaks down human relationships that should reflect God's truth and love.",
+      "parameters_sinGeneric": false,
+      "parent_id": 35,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "misrepresented",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "truth",
+      "extracted_data_phrases": [
+        "about people 's personal characteristics , accomplishments , or intentions in formal or informal conversations",
+        "in formal or informal conversations"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 29716,
+      "question": "Have I deliberately exaggerated, misrepresented the truth, or lied about people's personal characteristics, accomplishments, or intentions in formal or informal conversations?",
+      "description": "Bearing false witness puts one's desires over truth, justice, and love of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 65,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "misrepresented",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "truth",
+      "extracted_data_phrases": [
+        "about others",
+        "in conversations , online interactions , or social media posts"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 29720,
+      "question": "Have I deliberately exaggerated, misrepresented the truth, or lied about others in conversations, online interactions, or social media posts?",
+      "description": "Bearing false witness puts one's desires over truth, justice, and love of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 65,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "misrepresented",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "truth",
+      "extracted_data_phrases": [
+        "about others in conversations , social media posts , or online interactions",
+        "in conversations , social media posts , or online interactions"
+      ],
+      "parameters_sinTheme": "false witness",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 29723,
+      "question": "Have I deliberately exaggerated, misrepresented the truth, or lied about others in conversations, social media posts, or online interactions?",
+      "description": "Bearing false witness puts one's desires over truth, justice, and love of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 65,
+      "demographic_id": 146
+    }
+  ],
+  "resent": [
+    {
+      "extracted_data_verb": "become",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": null,
+      "extracted_data_phrases": null,
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 8784,
+      "question": "Did I become sterilized?",
+      "description": "This is considered sinful because deliberately altering one's fertility represents an act of defiance against God and implies we know better than divine wisdom, placing our desires for control above trust in God's plan for our lives.",
+      "parameters_sinGeneric": false,
+      "parent_id": 19,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "entertain",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of harboring resentment towards others",
+        "towards others"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 10013,
+      "question": "Do you entertain thoughts of harboring resentment towards others, seeking revenge or retaliation?",
+      "description": "Entertaining thoughts of revenge is sinful because it rejects Christ's teaching of forgiveness and love of enemies, choosing instead to harbor malice and a desire for personal retaliation rather than leaving justice to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 24,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "entertain",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of resentment towards others in your personal or professional relationships",
+        "towards others",
+        "in your personal or professional relationships"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 10018,
+      "question": "Do you entertain thoughts of resentment towards others in your personal or professional relationships?",
+      "description": "Entertaining thoughts of revenge is sinful because it rejects Christ's teaching of forgiveness and love of enemies, choosing instead to harbor malice and a desire for personal retaliation rather than leaving justice to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 24,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "harbored",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "resentment",
+      "extracted_data_phrases": [
+        "towards others who have wronged me"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 12443,
+      "question": "Have I harbored any resentment towards others who have wronged me?",
+      "description": "Holding a grudge with enemies is sinful as it directly contradicts Christ's command to \"love your enemies and pray for those who persecute you.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 31,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "harbor",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "resentment",
+      "extracted_data_phrases": [
+        "in my thoughts towards others who have wronged me",
+        "towards others who have wronged me"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 12446,
+      "question": "Did I harbor any resentment in my thoughts towards others who have wronged me?",
+      "description": "Holding a grudge with enemies is sinful as it directly contradicts Christ's command to \"love your enemies and pray for those who persecute you.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 31,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "harbor",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "resentment",
+      "extracted_data_phrases": [
+        "towards those who have wronged me"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 12449,
+      "question": "Did I harbor any resentment towards those who have wronged me, causing my thoughts to be consumed by bitterness and anger?",
+      "description": "Holding a grudge with enemies is sinful as it directly contradicts Christ's command to \"love your enemies and pray for those who persecute you.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 31,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "deny",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "forgiveness",
+      "extracted_data_phrases": [
+        "through my words",
+        "towards them"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 15604,
+      "question": "Did I deny forgiveness to someone through my words, showing resentment towards them?",
+      "description": "Refusing to forgive others is sinful because it contradicts Jesus's direct command to forgive and His example of mercy, while also blocking God's forgiveness of our own sins.",
+      "parameters_sinGeneric": false,
+      "parent_id": 39,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reject",
+      "extracted_data_noun_modifiers": "Catholic my",
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "faith",
+      "extracted_data_phrases": [
+        "for any length of time",
+        "of time",
+        "even if only in my thoughts"
+      ],
+      "parameters_sinTheme": "resent",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 36730,
+      "question": "Did I intentionally reject my Catholic faith for any length of time, even if only in my thoughts?",
+      "description": "This sin represents a deliberate rejection of God's revealed truth and the covenant relationship established through baptism, breaking the promise to remain faithful to Christ and His Church.",
+      "parameters_sinGeneric": false,
+      "parent_id": 81,
+      "demographic_id": 146
+    }
+  ],
+  "effeminacy": [
+    {
+      "extracted_data_verb": "fear",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "faith",
+      "extracted_data_phrases": [
+        "to",
+        "about my faith in Jesus",
+        "in Jesus",
+        "with others"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "words",
+      "id": 9516,
+      "question": "Do I fear to speak publicly about my faith in Jesus and share His message with others?",
+      "description": "Being ashamed or afraid to proclaim Christ represents a denial of our baptismal call to evangelize, shows lack of trust in God's protection, and fails to fulfill Jesus's command to \"go and make disciples of all nations.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 21,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "avoid",
+      "extracted_data_noun_modifiers": "Jesus",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "name",
+      "extracted_data_phrases": [
+        "in conversations with acquaintances due to fear",
+        "with acquaintances due to fear"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 9520,
+      "question": "Do I avoid sharing Jesus' name in conversations with acquaintances due to fear?",
+      "description": "Being ashamed or afraid to proclaim Christ represents a denial of our baptismal call to evangelize, shows lack of trust in God's protection, and fails to fulfill Jesus's command to \"go and make disciples of all nations.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 21,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fear",
+      "extracted_data_noun_modifiers": "Jesus",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "name",
+      "extracted_data_phrases": [
+        "to",
+        "even in casual conversations with friends , family , or acquaintances",
+        "with friends , family , or acquaintances"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "words",
+      "id": 9523,
+      "question": "Do I fear to proclaim Jesus' name, even in casual conversations with friends, family, or acquaintances?",
+      "description": "Being ashamed or afraid to proclaim Christ represents a denial of our baptismal call to evangelize, shows lack of trust in God's protection, and fails to fulfill Jesus's command to \"go and make disciples of all nations.\"",
+      "parameters_sinGeneric": false,
+      "parent_id": 21,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "compromise",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "beliefs",
+      "extracted_data_phrases": [
+        "to",
+        "from others",
+        "rather than",
+        "in I know what is right",
+        "against popular opinion or peer pressure"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 11892,
+      "question": "Did I compromise my beliefs to gain approval from others rather than standing firm in what I know is right, even when it means going against popular opinion or peer pressure?",
+      "description": "Prioritizing human approval over standing firm in God's truth demonstrates both moral cowardice and places human opinion above divine authority.",
+      "parameters_sinGeneric": false,
+      "parent_id": 30,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "lead",
+      "extracted_data_noun_modifiers": "your",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "pursuit",
+      "extracted_data_phrases": [
+        "of personal growth , self - improvement , and social connections",
+        "to",
+        "to"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 11895,
+      "question": "Did your pursuit of personal growth, self-improvement, and social connections lead you to compromise your beliefs rather than uphold what you know to be right?",
+      "description": "Prioritizing human approval over standing firm in God's truth demonstrates both moral cowardice and places human opinion above divine authority.",
+      "parameters_sinGeneric": false,
+      "parent_id": 30,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "remain",
+      "extracted_data_noun_modifiers": "Church",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "teachings",
+      "extracted_data_phrases": [
+        "about Church teachings",
+        "in public forums , online discussions , or community events"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 14035,
+      "question": "Did I remain silent about Church teachings to avoid social discomfort or conflict in public forums, online discussions, or community events?",
+      "description": "While it is a hardship and uncomfortable, we should not display softtness, but rather be witnesses to the Truth.",
+      "parameters_sinGeneric": false,
+      "parent_id": 36,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "remain",
+      "extracted_data_noun_modifiers": "Church",
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "teachings",
+      "extracted_data_phrases": [
+        "about Church teachings"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 14038,
+      "question": "Did I intentionally remain silent about Church teachings to avoid conflict?",
+      "description": "While it is a hardship and uncomfortable, we should not display softtness, but rather be witnesses to the Truth.",
+      "parameters_sinGeneric": false,
+      "parent_id": 36,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "distance",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "publicly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "from your faith",
+        "with social pressure or discomfort",
+        "only by silence or subtle avoidance"
+      ],
+      "parameters_sinTheme": "effeminacy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "words",
+      "id": 38395,
+      "question": "Did you publicly distance yourself from your faith when faced with social pressure or discomfort, even if it was only by silence or subtle avoidance?",
+      "description": "This is a public betrayal of Jesus' teaching that \"whoever denies me before men, I will also deny before my Father who is in heaven,\" effectively choosing human respect over fidelity to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 84,
+      "demographic_id": 146
+    }
+  ],
+  "retaliation": [
+    {
+      "extracted_data_verb": "entertain",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of taking revenge against someone",
+        "against someone"
+      ],
+      "parameters_sinTheme": "retaliation",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 10015,
+      "question": "Do you entertain thoughts of taking revenge against someone?",
+      "description": "Entertaining thoughts of revenge is sinful because it rejects Christ's teaching of forgiveness and love of enemies, choosing instead to harbor malice and a desire for personal retaliation rather than leaving justice to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 24,
+      "demographic_id": 146
+    }
+  ],
+  "lust": [
+    {
+      "extracted_data_verb": "permit",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "thoughts",
+      "extracted_data_phrases": [
+        "to",
+        "with pornography"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 10259,
+      "question": "Did I permit thoughts that led me to interact with pornography?",
+      "description": "Interacting with pornography reduces human beings to mere objects for personal gratification, violating their inherent dignity and worth as children of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 25,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "sought",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally out",
+      "extracted_data_noun": "pornography",
+      "extracted_data_phrases": [
+        "with pornography",
+        "in any form"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 10263,
+      "question": "Have I intentionally sought out, accessed, or engaged with pornography in any form?",
+      "description": "Interacting with pornography reduces human beings to mere objects for personal gratification, violating their inherent dignity and worth as children of God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 25,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reduced",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "to their usefulness",
+        "for me",
+        "rather than seeing their full humanity"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 23307,
+      "question": "Have I reduced others to their usefulness or what they could do for me, rather than seeing their full humanity?",
+      "description": "While not sexual in nature, this sin is still a form of lust in that it objectifies others who are created in God's image and possesses inherent dignity, ",
+      "parameters_sinGeneric": false,
+      "parent_id": 53,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reduce",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "to their usefulness",
+        "rather than seeing them as full human beings created in God 's image",
+        "as full human beings created in God 's image",
+        "in God 's image"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 23312,
+      "question": "Did I reduce others to their usefulness, rather than seeing them as full human beings created in God's image?",
+      "description": "While not sexual in nature, this sin is still a form of lust in that it objectifies others who are created in God's image and possesses inherent dignity, ",
+      "parameters_sinGeneric": false,
+      "parent_id": 53,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "reduce",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "to their usefulness for me",
+        "for me",
+        "rather than seeing them as full human beings created in God 's image",
+        "as full human beings created in God 's image",
+        "in God 's image"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 23315,
+      "question": "Did I reduce others to their usefulness for me, rather than seeing them as full human beings created in God's image?",
+      "description": "While not sexual in nature, this sin is still a form of lust in that it objectifies others who are created in God's image and possesses inherent dignity, ",
+      "parameters_sinGeneric": false,
+      "parent_id": 53,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "simulated",
+      "extracted_data_noun_modifiers": "sexual",
+      "extracted_data_verb_modifiers": "outside",
+      "extracted_data_noun": "acts",
+      "extracted_data_phrases": [
+        "of marriage"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 31753,
+      "question": "Have I had simulated sexual acts outside of marriage?",
+      "description": "While our sexual nature is a gift, using it to indulge in sensual pleasures is sinful as it's ordered for a particular purpose within marriage.",
+      "parameters_sinGeneric": false,
+      "parent_id": 70,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "engaged",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "outside",
+      "extracted_data_noun": "acts",
+      "extracted_data_phrases": [
+        "in acts of impure or lustful nature",
+        "of impure or lustful nature",
+        "of marriage"
+      ],
+      "parameters_sinTheme": "lust",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 31757,
+      "question": "Have I engaged in acts of impure or lustful nature outside of marriage?",
+      "description": "While our sexual nature is a gift, using it to indulge in sensual pleasures is sinful as it's ordered for a particular purpose within marriage.",
+      "parameters_sinGeneric": false,
+      "parent_id": 70,
+      "demographic_id": 146
+    }
+  ],
+  "imprudence": [
+    {
+      "extracted_data_verb": "spent",
+      "extracted_data_noun_modifiers": "excessive",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "time",
+      "extracted_data_phrases": [
+        "on activities that do not contribute to my spiritual growth or service to others",
+        "to my spiritual growth or service",
+        "to others"
+      ],
+      "parameters_sinTheme": "imprudence",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 10857,
+      "question": "Have I spent excessive time on activities that do not contribute to my spiritual growth or service to others?",
+      "description": "Wasteful pursuits squander the precious time God has given us for meaningful spiritual growth and service to others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 27,
+      "demographic_id": 146
+    }
+  ],
+  "sensuality": [
+    {
+      "extracted_data_verb": "allow",
+      "extracted_data_noun_modifiers": "worldly",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "desires",
+      "extracted_data_phrases": [
+        "for spiritual growth"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 11396,
+      "question": "Did I allow worldly desires to override my desire for spiritual growth?",
+      "description": "Prioritizing worldly pleasures and experiences over spiritual development is considered sinful as it violates the First Commandment by placing temporal desires above one's eternal relationship with God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 29,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": "controlled",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "substances",
+      "extracted_data_phrases": [
+        "to",
+        "from reality"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 16145,
+      "question": "Did I use controlled substances to detach from reality?",
+      "description": "Using controlled substances deliberately impairs your God-given reason and free will, and an attempt to avoid dealing with life's challenges rather than facing them with God's help.",
+      "parameters_sinGeneric": false,
+      "parent_id": 40,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 16150,
+      "question": "Did you intentionally use controlled substances to evade your problems?",
+      "description": "Using controlled substances deliberately impairs your God-given reason and free will, and an attempt to avoid dealing with life's challenges rather than facing them with God's help.",
+      "parameters_sinGeneric": false,
+      "parent_id": 40,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "from life 's challenges"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 16152,
+      "question": "Did you use controlled substances to numb yourself from life's challenges?",
+      "description": "Using controlled substances deliberately impairs your God-given reason and free will, and an attempt to avoid dealing with life's challenges rather than facing them with God's help.",
+      "parameters_sinGeneric": false,
+      "parent_id": 40,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "prioritize",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "desires",
+      "extracted_data_phrases": [
+        "for entertainment , leisure activities , and personal interests over my relationship with God",
+        "over my relationship with God",
+        "with God"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 20566,
+      "question": "Do I prioritize my own desires for entertainment, leisure activities, and personal interests over my relationship with God?",
+      "description": "This sin makes  idol of physical or emotional gratification, turning what should be a gift from God into the primary focus of one's life, displacing God as the center and highest good.",
+      "parameters_sinGeneric": false,
+      "parent_id": 48,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "make",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "pleasures",
+      "extracted_data_phrases": [
+        "such as hobbies , social media use , or personal growth activities , more important than my relationship with God",
+        "than my relationship with God",
+        "with God"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 20568,
+      "question": "Do I make my pleasures, such as hobbies, social media use, or personal growth activities, more important than my relationship with God?",
+      "description": "This sin makes  idol of physical or emotional gratification, turning what should be a gift from God into the primary focus of one's life, displacing God as the center and highest good.",
+      "parameters_sinGeneric": false,
+      "parent_id": 48,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "prioritize",
+      "extracted_data_noun_modifiers": "own physical my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "gratification",
+      "extracted_data_phrases": [
+        "over a deeper connection with God in my daily thoughts , desires , and actions",
+        "with God",
+        "in my daily thoughts , desires , and actions"
+      ],
+      "parameters_sinTheme": "sensuality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 20572,
+      "question": "Do I prioritize my own physical or emotional gratification over a deeper connection with God in my daily thoughts, desires, and actions?",
+      "description": "This sin makes  idol of physical or emotional gratification, turning what should be a gift from God into the primary focus of one's life, displacing God as the center and highest good.",
+      "parameters_sinGeneric": false,
+      "parent_id": 48,
+      "demographic_id": 146
+    }
+  ],
+  "scandal": [
+    {
+      "extracted_data_verb": "encourage",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "someone",
+      "extracted_data_phrases": [
+        "to",
+        "by my deeds"
+      ],
+      "parameters_sinTheme": "scandal",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 14479,
+      "question": "Did I encourage someone to commit a sinful act by my deeds?",
+      "description": "Leading others to sin (also called \"scandal\") is sinful because it actively harms another person's soul by encouraging them away from God, making you spiritually responsible both for your own sin and for potentially damaging another's relationship with God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 37,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "try",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "act",
+      "extracted_data_phrases": [
+        "to",
+        "with God"
+      ],
+      "parameters_sinTheme": "scandal",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 14482,
+      "question": "Did I try to lead someone else to commit an act that would harm their relationship with God?",
+      "description": "Leading others to sin (also called \"scandal\") is sinful because it actively harms another person's soul by encouraging them away from God, making you spiritually responsible both for your own sin and for potentially damaging another's relationship with God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 37,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "try",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "from God"
+      ],
+      "parameters_sinTheme": "scandal",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 14485,
+      "question": "Did you try to influence someone else to commit an act that could lead them away from God?",
+      "description": "Leading others to sin (also called \"scandal\") is sinful because it actively harms another person's soul by encouraging them away from God, making you spiritually responsible both for your own sin and for potentially damaging another's relationship with God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 37,
+      "demographic_id": 146
+    }
+  ],
+  "impenitence": [
+    {
+      "extracted_data_verb": "refused",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "wrongdoing",
+      "extracted_data_phrases": [
+        "to",
+        "even in my thoughts"
+      ],
+      "parameters_sinTheme": "impenitence",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 15055,
+      "question": "Have I refused to acknowledge my wrongdoing, even in my thoughts?",
+      "description": "Impenitence is sinful because refusing to repent is a prideful rejection of God's mercy.",
+      "parameters_sinGeneric": false,
+      "parent_id": 38,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "refused",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": "obstinately",
+      "extracted_data_noun": "wrongdoing",
+      "extracted_data_phrases": [
+        "to",
+        "to",
+        "rather than seeking forgiveness"
+      ],
+      "parameters_sinTheme": "impenitence",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 15059,
+      "question": "Have I obstinately refused to confront my own wrongdoing, clinging to guilt or shame rather than seeking forgiveness?",
+      "description": "Impenitence is sinful because refusing to repent is a prideful rejection of God's mercy.",
+      "parameters_sinGeneric": false,
+      "parent_id": 38,
+      "demographic_id": 146
+    }
+  ],
+  "blasphemy": [
+    {
+      "extracted_data_verb": "swear",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": null,
+      "extracted_data_phrases": [
+        "to God"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 19011,
+      "question": "Did I swear to God?",
+      "description": "This sin violates the Second Commandment by treating God's holy name with disrespect rather than reverence.",
+      "parameters_sinGeneric": false,
+      "parent_id": 45,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": "holy God",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "name",
+      "extracted_data_phrases": [
+        "in an oath ,",
+        "to something"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 19014,
+      "question": "Did I use God's holy name in an oath, when swearing to something?",
+      "description": "This sin violates the Second Commandment by treating God's holy name with disrespect rather than reverence.",
+      "parameters_sinGeneric": false,
+      "parent_id": 45,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "receive",
+      "extracted_data_noun_modifiers": "Holy",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Communion",
+      "extracted_data_phrases": [
+        "to",
+        "in a state of sin",
+        "of sin"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 19919,
+      "question": "Did I receive Holy Communion while deliberately choosing to be in a state of sin?",
+      "description": "This mortal sin is a form of sacrilege and profanes the real presence of Christ and shows grave disrespect for the sacrament by receiving unworthily.",
+      "parameters_sinGeneric": false,
+      "parent_id": 47,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "receive",
+      "extracted_data_noun_modifiers": "Holy",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Communion",
+      "extracted_data_phrases": [
+        "while knowingly in a state of mortal sin",
+        "of mortal sin"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 19924,
+      "question": "Did I receive Holy Communion while knowingly in a state of mortal sin, which would have been brought about by my own deliberate actions or choices rather than any external circumstances?",
+      "description": "This mortal sin is a form of sacrilege and profanes the real presence of Christ and shows grave disrespect for the sacrament by receiving unworthily.",
+      "parameters_sinGeneric": false,
+      "parent_id": 47,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "received",
+      "extracted_data_noun_modifiers": "Holy",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "Communion",
+      "extracted_data_phrases": [
+        "of sin",
+        "for the real presence of Christ",
+        "of Christ"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "deeds",
+      "id": 19927,
+      "question": "Have I received Holy Communion while knowingly in a state of sin, thus showing grave disrespect for the real presence of Christ?",
+      "description": "This mortal sin is a form of sacrilege and profanes the real presence of Christ and shows grave disrespect for the sacrament by receiving unworthily.",
+      "parameters_sinGeneric": false,
+      "parent_id": 47,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "used",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of God or Jesus",
+        "as a casual expression",
+        "in your conversations"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 42623,
+      "question": "Have you used the name of God or Jesus as a casual expression, swear word, or curse in your conversations?",
+      "description": "This is sinful as using God's holy name carelessly or disrespectfully shows contempt for His divine nature and fails to give proper honor to the sacred name of God, which should only be used in prayer, worship, or respectful discussion.",
+      "parameters_sinGeneric": false,
+      "parent_id": 91,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "spoken",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of Jesus or God",
+        "in anger , frustration , or disrespect"
+      ],
+      "parameters_sinTheme": "blasphemy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 42628,
+      "question": "Have you spoken the name of Jesus or God in anger, frustration, or disrespect?",
+      "description": "This is sinful as using God's holy name carelessly or disrespectfully shows contempt for His divine nature and fails to give proper honor to the sacred name of God, which should only be used in prayer, worship, or respectful discussion.",
+      "parameters_sinGeneric": false,
+      "parent_id": 91,
+      "demographic_id": 146
+    }
+  ],
+  "ambition": [
+    {
+      "extracted_data_verb": "allow",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "pursuit",
+      "extracted_data_phrases": [
+        "of personal growth and self - improvement",
+        "through career advancement",
+        "for power and dominance"
+      ],
+      "parameters_sinTheme": "ambition",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 21901,
+      "question": "Did my pursuit of personal growth and self-improvement through career advancement allow my desire for power and dominance to influence how I treat others?",
+      "description": "inordinate ambition and the obsession with power corrupts the soul by placing our desire to dominate and control above God's authority, turning us away from humble service and toward prideful self-exaltation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 50,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "let",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "for power and dominance influence",
+        "particularly in situations where you have authority or influence"
+      ],
+      "parameters_sinTheme": "ambition",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 21904,
+      "question": "Did you let your desire for power and dominance influence how you treat others, particularly in situations where you have authority or influence?",
+      "description": "inordinate ambition and the obsession with power corrupts the soul by placing our desire to dominate and control above God's authority, turning us away from humble service and toward prideful self-exaltation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 50,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "let",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "for power influence",
+        "to prideful self - exaltation over humble service",
+        "over humble service",
+        "to others"
+      ],
+      "parameters_sinTheme": "ambition",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 21907,
+      "question": "Did you let your desire for power influence your decisions, leading to prideful self-exaltation over humble service to others?",
+      "description": "inordinate ambition and the obsession with power corrupts the soul by placing our desire to dominate and control above God's authority, turning us away from humble service and toward prideful self-exaltation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 50,
+      "demographic_id": 146
+    }
+  ],
+  "oppression": [
+    {
+      "extracted_data_verb": "mistreat",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "against others",
+        "through my actions"
+      ],
+      "parameters_sinTheme": "oppression",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 22782,
+      "question": "Did I mistreat, harass, or discriminate against others through my actions?",
+      "description": "It's a sin to execute an unjust and cruel exercise of power or authority over others instead of respecting the God-given dignity of every human person.",
+      "parameters_sinGeneric": false,
+      "parent_id": 52,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "mistreat",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "others",
+      "extracted_data_phrases": [
+        "by exercising power or authority over them in unjust or cruel ways",
+        "over them",
+        "in unjust or cruel ways"
+      ],
+      "parameters_sinTheme": "oppression",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 22786,
+      "question": "Did I ever intentionally or unintentionally mistreat others by exercising power or authority over them in unjust or cruel ways?",
+      "description": "It's a sin to execute an unjust and cruel exercise of power or authority over others instead of respecting the God-given dignity of every human person.",
+      "parameters_sinGeneric": false,
+      "parent_id": 52,
+      "demographic_id": 146
+    }
+  ],
+  "autonomy": [
+    {
+      "extracted_data_verb": "take",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "in guiding them"
+      ],
+      "parameters_sinTheme": "autonomy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 24567,
+      "question": "Did you take for granted your accomplishments and success, forgetting to acknowledge God's providence in guiding them?",
+      "description": "Believing that one's blessings are due to one's own self-sufficiency and determination is a sin as it is a rejection of recognizing Divine Providence as being ultimately responsible.",
+      "parameters_sinGeneric": false,
+      "parent_id": 55,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "take",
+      "extracted_data_noun_modifiers": "personal my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "accomplishments",
+      "extracted_data_phrases": [
+        "to",
+        "in guiding me towards success",
+        "towards success"
+      ],
+      "parameters_sinTheme": "autonomy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 24572,
+      "question": "Did I take for granted my personal accomplishments, forgetting to acknowledge God's providence in guiding me towards success?",
+      "description": "Believing that one's blessings are due to one's own self-sufficiency and determination is a sin as it is a rejection of recognizing Divine Providence as being ultimately responsible.",
+      "parameters_sinGeneric": false,
+      "parent_id": 55,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "allow",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "doubts",
+      "extracted_data_phrases": [
+        "about God 's existence",
+        "in my mind"
+      ],
+      "parameters_sinTheme": "autonomy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 38777,
+      "question": "Did I allow doubts about God's existence to arise in my mind?",
+      "description": "Deliberately entertaining doubts about God's existence is a sin against faith because it questions the most fundamental truth of our faith and shows a lack of trust in God's clear self-revelation through creation, scripture, and the Church's teachings.",
+      "parameters_sinGeneric": false,
+      "parent_id": 85,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "rely",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "solely on your own abilities",
+        "to",
+        "in achieving success or completing tasks"
+      ],
+      "parameters_sinTheme": "autonomy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 43281,
+      "question": "Did you rely solely on your own abilities, neglecting to acknowledge God's assistance in achieving success or completing tasks?",
+      "description": "Pride is self-reliance repeats Lucifer's original sin of wanting independence from God and fails to acknowledge our complete dependence on divine grace.",
+      "parameters_sinGeneric": false,
+      "parent_id": 92,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "trust",
+      "extracted_data_noun_modifiers": "own my",
+      "extracted_data_verb_modifiers": "solely",
+      "extracted_data_noun": "abilities",
+      "extracted_data_phrases": [
+        "in my own abilities",
+        "without acknowledging my need for God 's guidance and support",
+        "for God 's guidance and support"
+      ],
+      "parameters_sinTheme": "autonomy",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 43284,
+      "question": "Did I trust solely in my own abilities to achieve goals without acknowledging my need for God's guidance and support?",
+      "description": "Pride is self-reliance repeats Lucifer's original sin of wanting independence from God and fails to acknowledge our complete dependence on divine grace.",
+      "parameters_sinGeneric": false,
+      "parent_id": 92,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "rely",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "solely on your own abilities in navigating life 's challenges",
+        "in navigating life 's challenges",
+        "without turning to God for guidance",
+        "to God",
+        "for guidance"
+      ],
+      "parameters_sinTheme": "autonomy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 43287,
+      "question": "Did you rely solely on your own abilities in navigating life's challenges, without turning to God for guidance?",
+      "description": "Pride is self-reliance repeats Lucifer's original sin of wanting independence from God and fails to acknowledge our complete dependence on divine grace.",
+      "parameters_sinGeneric": false,
+      "parent_id": 92,
+      "demographic_id": 146
+    }
+  ],
+  "envy": [
+    {
+      "extracted_data_verb": "felt",
+      "extracted_data_noun_modifiers": "envious",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "thoughts",
+      "extracted_data_phrases": [
+        "about others ' successes",
+        "in their endeavors"
+      ],
+      "parameters_sinTheme": "envy",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 25376,
+      "question": "Have I felt envious thoughts about others' successes, and secretly wished they would experience setbacks in their endeavors?",
+      "description": "Envy leads us to have discontent for another's possessions so we won't feel the pain of comparison or perceived lack in our own lives.",
+      "parameters_sinGeneric": false,
+      "parent_id": 57,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "harbored",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "envy",
+      "extracted_data_phrases": [
+        "towards others",
+        "due to discontentment with what I have and a tendency to fixate on desiring their possessions",
+        "with what I have and a tendency to fixate on desiring their possessions"
+      ],
+      "parameters_sinTheme": "envy",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 33732,
+      "question": "Have I harbored envy towards others due to discontentment with what I have and a tendency to fixate on desiring their possessions?",
+      "description": "This sin stems from ingratitude for one's own blessings and letting material desires control our hearts.",
+      "parameters_sinGeneric": false,
+      "parent_id": 74,
+      "demographic_id": 146
+    }
+  ],
+  "incontinence": [
+    {
+      "extracted_data_verb": "lack",
+      "extracted_data_noun_modifiers": "self",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "control",
+      "extracted_data_phrases": [
+        "in interactions with others",
+        "with others"
+      ],
+      "parameters_sinTheme": "incontinence",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 25887,
+      "question": "Did I lack self-control and use inappropriate language in interactions with others, thereby disrespecting their dignity?",
+      "description": "This sin of incontinence shows a lack of self-restraint and violates the dignity of others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 58,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "lack",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to others in public settings",
+        "in public settings"
+      ],
+      "parameters_sinTheme": "incontinence",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 25893,
+      "question": "Did you lack self-control when speaking to others in public settings?",
+      "description": "This sin of incontinence shows a lack of self-restraint and violates the dignity of others.",
+      "parameters_sinGeneric": false,
+      "parent_id": 58,
+      "demographic_id": 146
+    }
+  ],
+  "gluttony": [
+    {
+      "extracted_data_verb": "overindulge",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in eating or drinking beyond what is reasonable",
+        "beyond what is reasonable",
+        "perhaps by consuming excessive amounts of food or drinks during meals or social gatherings",
+        "of food or drinks",
+        "during meals or social gatherings"
+      ],
+      "parameters_sinTheme": "gluttony",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 27203,
+      "question": "Did you overindulge in eating or drinking beyond what is reasonable, perhaps by consuming excessive amounts of food or drinks during meals or social gatherings?",
+      "description": "This sin of gluttony demonstrates an inordinate attachment to worldly pleasures and rejects the call to temperance.",
+      "parameters_sinGeneric": false,
+      "parent_id": 60,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "overindulge",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in eating or drinking beyond what 's reasonable",
+        "beyond what 's reasonable",
+        "to excessive food waste"
+      ],
+      "parameters_sinTheme": "gluttony",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 27205,
+      "question": "Did you overindulge in eating or drinking beyond what's reasonable, possibly leading to excessive food waste?",
+      "description": "This sin of gluttony demonstrates an inordinate attachment to worldly pleasures and rejects the call to temperance.",
+      "parameters_sinGeneric": false,
+      "parent_id": 60,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "indulge",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": "excessively",
+      "extracted_data_noun": "body",
+      "extracted_data_phrases": [
+        "in eating or drinking beyond what is reasonable",
+        "beyond what is reasonable",
+        "for moderation"
+      ],
+      "parameters_sinTheme": "gluttony",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 27208,
+      "question": "Did I excessively indulge in eating or drinking beyond what is reasonable, thereby neglecting my body's need for moderation?",
+      "description": "This sin of gluttony demonstrates an inordinate attachment to worldly pleasures and rejects the call to temperance.",
+      "parameters_sinGeneric": false,
+      "parent_id": 60,
+      "demographic_id": 146
+    }
+  ],
+  "prodigality": [
+    {
+      "extracted_data_verb": "prioritized",
+      "extracted_data_noun_modifiers": "non - essential financial",
+      "extracted_data_verb_modifiers": "excessively",
+      "extracted_data_noun": "pursuits",
+      "extracted_data_phrases": [
+        "over my family 's needs and responsibilities",
+        "to me"
+      ],
+      "parameters_sinTheme": "prodigality",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 27845,
+      "question": "Have I excessively prioritized non-essential financial pursuits over my family's needs and responsibilities, thereby recklessly risking resources God has entrusted to me?",
+      "description": "This sin violates the virtue of stewardship by recklessly risking resources God has entrusted to us, while potentially harming our ability to provide for family and those in need.",
+      "parameters_sinGeneric": false,
+      "parent_id": 61,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "prioritized",
+      "extracted_data_noun_modifiers": "leisure",
+      "extracted_data_verb_modifiers": "excessively",
+      "extracted_data_noun": "activities",
+      "extracted_data_phrases": [
+        "such as hobbies or entertainment",
+        "over my financial responsibilities or family needs"
+      ],
+      "parameters_sinTheme": "prodigality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 27848,
+      "question": "Have I excessively prioritized leisure activities, such as hobbies or entertainment, over my financial responsibilities or family needs?",
+      "description": "This sin violates the virtue of stewardship by recklessly risking resources God has entrusted to us, while potentially harming our ability to provide for family and those in need.",
+      "parameters_sinGeneric": false,
+      "parent_id": 61,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "given",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "precedence",
+      "extracted_data_phrases": [
+        "to spending money on leisure activities over my family 's financial needs",
+        "on leisure activities over my family 's financial needs",
+        "over my family 's financial needs"
+      ],
+      "parameters_sinTheme": "prodigality",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 27851,
+      "question": "Have I given precedence to spending money on leisure activities over my family's financial needs?",
+      "description": "This sin violates the virtue of stewardship by recklessly risking resources God has entrusted to us, while potentially harming our ability to provide for family and those in need.",
+      "parameters_sinGeneric": false,
+      "parent_id": 61,
+      "demographic_id": 146
+    }
+  ],
+  "gossip": [
+    {
+      "extracted_data_verb": "taken",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "pleasure",
+      "extracted_data_phrases": [
+        "in discussing others ' private affairs"
+      ],
+      "parameters_sinTheme": "gossip",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 28496,
+      "question": "Have I taken pleasure in discussing others' private affairs, even if what I shared was true?",
+      "description": "Gossip violates human dignity and charity by harming others' reputations for our own entertainment or pride.",
+      "parameters_sinGeneric": false,
+      "parent_id": 62,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "taken",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "pleasure",
+      "extracted_data_phrases": [
+        "in discussing others ' faults or private affairs",
+        "through conversations at social gatherings or online communities where I 've connected with friends",
+        "at social gatherings or online communities where I 've connected with friends",
+        "with friends"
+      ],
+      "parameters_sinTheme": "gossip",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 28500,
+      "question": "Have I taken pleasure in discussing others' faults or private affairs, even if what I shared was true, through conversations at social gatherings or online communities where I've connected with friends?",
+      "description": "Gossip violates human dignity and charity by harming others' reputations for our own entertainment or pride.",
+      "parameters_sinGeneric": false,
+      "parent_id": 62,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "shared",
+      "extracted_data_noun_modifiers": "private others",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "affairs",
+      "extracted_data_phrases": [
+        "for my own pleasure"
+      ],
+      "parameters_sinTheme": "gossip",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 28504,
+      "question": "Have I shared others' private affairs, even if what I shared was true, for my own pleasure?",
+      "description": "Gossip violates human dignity and charity by harming others' reputations for our own entertainment or pride.",
+      "parameters_sinGeneric": false,
+      "parent_id": 62,
+      "demographic_id": 146
+    }
+  ],
+  "impiety": [
+    {
+      "extracted_data_verb": "engage",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "work",
+      "extracted_data_phrases": [
+        "in work",
+        "on a Sunday , when it otherwise could be avoided"
+      ],
+      "parameters_sinTheme": "impiety",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "deeds",
+      "id": 29013,
+      "question": "Did I engage in work on a Sunday, when it otherwise could be avoided?",
+      "description": "It's irreverent to work on a Sunday as it's a holy day of rest, worship, and a day of protest against the servitude of work and the worship of money (CCC).",
+      "parameters_sinGeneric": false,
+      "parent_id": 63,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "reverence",
+      "extracted_data_phrases": [
+        "to",
+        "for Most Blessed Sacrament on solemn occasions , such as during Eucharistic adoration or processions",
+        "on solemn occasions",
+        "such as during Eucharistic adoration or processions",
+        "during Eucharistic adoration or processions"
+      ],
+      "parameters_sinTheme": "impiety",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 41951,
+      "question": "Did I fail to show reverence for Most Blessed Sacrament on solemn occasions, such as during Eucharistic adoration or processions?",
+      "description": "This sin is in failing to show proper reverence demonstrates a lack of faith, respect, and proper worship due to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 90,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "reverence",
+      "extracted_data_phrases": [
+        "to",
+        "for Most Blessed Sacrament",
+        "during special occasions and solemn liturgical celebrations"
+      ],
+      "parameters_sinTheme": "impiety",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "deeds",
+      "id": 41953,
+      "question": "Did I fail to show reverence for Most Blessed Sacrament during special occasions and solemn liturgical celebrations?",
+      "description": "This sin is in failing to show proper reverence demonstrates a lack of faith, respect, and proper worship due to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 90,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "fail",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "reverence",
+      "extracted_data_phrases": [
+        "to",
+        "for Most Blessed Sacrament",
+        "in situations where it would have been fitting",
+        "such as during visits to churches",
+        "during visits to churches",
+        "to churches",
+        "in Eucharistic processes"
+      ],
+      "parameters_sinTheme": "impiety",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 41957,
+      "question": "Did I fail to show reverence for Most Blessed Sacrament in situations where it would have been fitting, such as during visits to churches or while participating in Eucharistic processes?",
+      "description": "This sin is in failing to show proper reverence demonstrates a lack of faith, respect, and proper worship due to God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 90,
+      "demographic_id": 146
+    }
+  ],
+  "impurity": [
+    {
+      "extracted_data_verb": "used",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "practices",
+      "extracted_data_phrases": [
+        "to"
+      ],
+      "parameters_sinTheme": "impurity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 30307,
+      "question": "Have I intentionally used practices, substances, or objects to prevent pregnancy?",
+      "description": "This sin intentionally separates the unitive and procreative purposes of marriage and violates the proper use of one's sexuality.",
+      "parameters_sinGeneric": false,
+      "parent_id": 66,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "use",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "intentionally",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "with the natural order of conception within a committed relationship",
+        "of conception",
+        "within a committed relationship"
+      ],
+      "parameters_sinTheme": "impurity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 30309,
+      "question": "Did you intentionally use practices, substances, or objects to interfere with the natural order of conception within a committed relationship?",
+      "description": "This sin intentionally separates the unitive and procreative purposes of marriage and violates the proper use of one's sexuality.",
+      "parameters_sinGeneric": false,
+      "parent_id": 66,
+      "demographic_id": 146
+    }
+  ],
+  "infidelity": [
+    {
+      "extracted_data_verb": "break",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "vows",
+      "extracted_data_phrases": [
+        "in the sacrament of marriage",
+        "of marriage"
+      ],
+      "parameters_sinTheme": "infidelity",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 30725,
+      "question": "Did I break any vows made in the sacrament of marriage?",
+      "description": "Fidelity in marriage is viewed as a sacred covenant made before God - not just a contract between people, thus breaking vows is seen as a betrayal of both divine and human trust.",
+      "parameters_sinGeneric": false,
+      "parent_id": 67,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "broken",
+      "extracted_data_noun_modifiers": "my",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "marriage",
+      "extracted_data_phrases": [
+        "through any adulterous thoughts , words , or deeds"
+      ],
+      "parameters_sinTheme": "infidelity",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 30727,
+      "question": "Have I broken my marriage vows through any adulterous thoughts, words, or deeds?",
+      "description": "Fidelity in marriage is viewed as a sacred covenant made before God - not just a contract between people, thus breaking vows is seen as a betrayal of both divine and human trust.",
+      "parameters_sinGeneric": false,
+      "parent_id": 67,
+      "demographic_id": 146
+    }
+  ],
+  "fornication": [
+    {
+      "extracted_data_verb": "had",
+      "extracted_data_noun_modifiers": "non - procreative sexual",
+      "extracted_data_verb_modifiers": "outside",
+      "extracted_data_noun": "relationships",
+      "extracted_data_phrases": [
+        "of marriage"
+      ],
+      "parameters_sinTheme": "fornication",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 31104,
+      "question": "Have I had non-procreative sexual relationships outside of marriage?",
+      "description": "While the sexual natures are a gift, it's a sin to stray away from their ordering toward the unitive and procreative nature within marriage.",
+      "parameters_sinGeneric": false,
+      "parent_id": 68,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "engage",
+      "extracted_data_noun_modifiers": "non - marital non - procreative sexual",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "behavior",
+      "extracted_data_phrases": [
+        "in non - marital , non - procreative sexual behavior"
+      ],
+      "parameters_sinTheme": "fornication",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "deeds",
+      "id": 31108,
+      "question": "Did I engage in non-marital, non-procreative sexual behavior?",
+      "description": "While the sexual natures are a gift, it's a sin to stray away from their ordering toward the unitive and procreative nature within marriage.",
+      "parameters_sinGeneric": false,
+      "parent_id": 68,
+      "demographic_id": 146
+    }
+  ],
+  "violence": [
+    {
+      "extracted_data_verb": "acted",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "knowingly",
+      "extracted_data_noun": "ways",
+      "extracted_data_phrases": [
+        "in ways that brought pain or suffering to someone else through my own deliberate actions",
+        "to someone else",
+        "through my own deliberate actions"
+      ],
+      "parameters_sinTheme": "violence",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 32318,
+      "question": "Have I knowingly acted in ways that brought pain or suffering to someone else through my own deliberate actions?",
+      "description": "When we deliberately harm others, we attack their God-given dignity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 71,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "acted",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "knowingly",
+      "extracted_data_noun": "ways",
+      "extracted_data_phrases": [
+        "in ways that deliberately caused emotional pain , suffering , or distress to someone else",
+        "to someone else"
+      ],
+      "parameters_sinTheme": "violence",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 32322,
+      "question": "Have I knowingly acted in ways that deliberately caused emotional pain, suffering, or distress to someone else?",
+      "description": "When we deliberately harm others, we attack their God-given dignity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 71,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "acted",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "knowingly",
+      "extracted_data_noun": "ways",
+      "extracted_data_phrases": [
+        "in ways that deliberately caused emotional pain or suffering to someone , especially those close to me such as family members or friends",
+        "to someone , especially those close to me such as family members or friends",
+        "to me",
+        "such as family members or friends"
+      ],
+      "parameters_sinTheme": "violence",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 32325,
+      "question": "Have I knowingly acted in ways that deliberately caused emotional pain or suffering to someone, especially those close to me such as family members or friends?",
+      "description": "When we deliberately harm others, we attack their God-given dignity.",
+      "parameters_sinGeneric": false,
+      "parent_id": 71,
+      "demographic_id": 146
+    }
+  ],
+  "adultery": [
+    {
+      "extracted_data_verb": "entertained",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "toward someone else 's spouse"
+      ],
+      "parameters_sinTheme": "adultery",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 33386,
+      "question": "Have you entertained inappropriate feelings toward someone else's spouse?",
+      "description": "This sin undermines the sacred bond of marriage by treating another person as an object of desire rather than respecting their dignity and commitment to their spouse.",
+      "parameters_sinGeneric": false,
+      "parent_id": 73,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "entertained",
+      "extracted_data_noun_modifiers": "inappropriate",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "feelings",
+      "extracted_data_phrases": [
+        "toward someone else 's spouse in situations where I have found myself interacting with them",
+        "in situations where I have found myself interacting with them",
+        "with them"
+      ],
+      "parameters_sinTheme": "adultery",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "thoughts",
+      "id": 33390,
+      "question": "Have I entertained inappropriate feelings toward someone else's spouse in situations where I have found myself interacting with them?",
+      "description": "This sin undermines the sacred bond of marriage by treating another person as an object of desire rather than respecting their dignity and commitment to their spouse.",
+      "parameters_sinGeneric": false,
+      "parent_id": 73,
+      "demographic_id": 146
+    }
+  ],
+  "murder": [
+    {
+      "extracted_data_verb": "participated",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "abortion",
+      "extracted_data_phrases": [
+        "in an abortion"
+      ],
+      "parameters_sinTheme": "murder",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 35717,
+      "question": "Have I participated in an abortion?",
+      "description": "It's a grave sin to actively participate in the intentional taking of another's life, which robs the gift of life that was granted to others by God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 79,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "participated",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in an abortion"
+      ],
+      "parameters_sinTheme": "murder",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "deeds",
+      "id": 35719,
+      "question": "Have you participated in an abortion?",
+      "description": "It's a grave sin to actively participate in the intentional taking of another's life, which robs the gift of life that was granted to others by God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 79,
+      "demographic_id": 146
+    }
+  ],
+  "sorcery": [
+    {
+      "extracted_data_verb": "interacted",
+      "extracted_data_noun_modifiers": "supernatural",
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "knowledge",
+      "extracted_data_phrases": [
+        "with anyone claiming to possess supernatural knowledge or abilities through means forbidden by God , such as mediums , fortune tellers , tarot card readers , or Ouija boards",
+        "to",
+        "through means forbidden by God , such as mediums , fortune tellers , tarot card readers , or Ouija boards",
+        "such as mediums , fortune tellers , tarot card readers , or Ouija boards"
+      ],
+      "parameters_sinTheme": "sorcery",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "deeds",
+      "id": 36186,
+      "question": "Have I interacted with anyone claiming to possess supernatural knowledge or abilities through means forbidden by God, such as mediums, fortune tellers, tarot card readers, or Ouija boards?",
+      "description": "This sin is a violation of the First Commandment because it attempts to bypass God's providence and divine will by seeking supernatural knowledge through forbidden means, effectively placing trust in occult practices rather than in God.",
+      "parameters_sinGeneric": false,
+      "parent_id": 80,
+      "demographic_id": 146
+    }
+  ],
+  "presumption": [
+    {
+      "extracted_data_verb": "persist",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "deliberately",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in sinful behavior",
+        "on God 's mercy",
+        "without making any genuine effort to change or seek His will"
+      ],
+      "parameters_sinTheme": "presumption",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 37332,
+      "question": "Did you deliberately persist in sinful behavior, relying on God's mercy without making any genuine effort to change or seek His will?",
+      "description": "Presumption of God's mercy is a sin against hope because it takes His forgiveness for granted without true repentance or effort to amend one's life, showing disrespect for divine justice and mercy.",
+      "parameters_sinGeneric": false,
+      "parent_id": 82,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "persisted",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "deliberately",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "in sinful behavior",
+        "on God 's mercy",
+        "without making any effort to change your lifestyle or habits that lead you away from His will",
+        "from His will"
+      ],
+      "parameters_sinTheme": "presumption",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "thoughts",
+      "id": 37336,
+      "question": "Have you deliberately persisted in sinful behavior, counting on God's mercy without making any effort to change your lifestyle or habits that lead you away from His will?",
+      "description": "Presumption of God's mercy is a sin against hope because it takes His forgiveness for granted without true repentance or effort to amend one's life, showing disrespect for divine justice and mercy.",
+      "parameters_sinGeneric": false,
+      "parent_id": 82,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "count",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "on God 's mercy",
+        "without making any effort to change",
+        "in sinful behavior"
+      ],
+      "parameters_sinTheme": "presumption",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 37340,
+      "question": "Did you count on God's mercy without making any effort to change, presuming that His forgiveness would cover your deliberate persistence in sinful behavior?",
+      "description": "Presumption of God's mercy is a sin against hope because it takes His forgiveness for granted without true repentance or effort to amend one's life, showing disrespect for divine justice and mercy.",
+      "parameters_sinGeneric": false,
+      "parent_id": 82,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "put",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "off",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to",
+        "while",
+        "in a state of sin",
+        "of sin",
+        "on your own abilities",
+        "rather than God 's mercy"
+      ],
+      "parameters_sinTheme": "presumption",
+      "parameters_sinAgainst": "self",
+      "parameters_sinMedium": "omission",
+      "id": 37969,
+      "question": "Did you put off going to confession while in a state of sin, relying on your own abilities rather than God's mercy?",
+      "description": "Deliberately delaying confession while in mortal sin is a serious offense because it recklessly endangers your soul's salvation, shows contempt for God's mercy through the sacrament of reconciliation, and demonstrates prideful presumption that you'll have time later to repent.",
+      "parameters_sinGeneric": false,
+      "parent_id": 83,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "procrastinate",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": null,
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "to confession",
+        "of respect for God 's mercy",
+        "for God 's mercy",
+        "through the sacrament of reconciliation",
+        "of reconciliation"
+      ],
+      "parameters_sinTheme": "presumption",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "omission",
+      "id": 37972,
+      "question": "Did you procrastinate going to confession while knowing yourself needed it, thereby showing a lack of respect for God's mercy through the sacrament of reconciliation?",
+      "description": "Deliberately delaying confession while in mortal sin is a serious offense because it recklessly endangers your soul's salvation, shows contempt for God's mercy through the sacrament of reconciliation, and demonstrates prideful presumption that you'll have time later to repent.",
+      "parameters_sinGeneric": false,
+      "parent_id": 83,
+      "demographic_id": 146
+    }
+  ],
+  "apostasy": [
+    {
+      "extracted_data_verb": "rejected",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "explicitly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of God",
+        "either in your own thoughts or when discussing it with others",
+        "with others"
+      ],
+      "parameters_sinTheme": "apostasy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "thoughts",
+      "id": 39354,
+      "question": "Have you explicitly rejected the existence of God, either in your own thoughts or when discussing it with others?",
+      "description": "Denying God's existence after having been baptized apostasy is one of the gravest sins possible because it is declaring the Author of Life and Source of all being to be non-existent, which directly contradicts both reason and divine revelation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 86,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "rejected",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "explicitly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of God",
+        "either internally through your own personal reflections or to others through your words or actions",
+        "through your words or actions"
+      ],
+      "parameters_sinTheme": "apostasy",
+      "parameters_sinAgainst": "others",
+      "parameters_sinMedium": "words",
+      "id": 39358,
+      "question": "Have you explicitly rejected the existence of God, either internally through your own personal reflections or to others through your words or actions?",
+      "description": "Denying God's existence after having been baptized apostasy is one of the gravest sins possible because it is declaring the Author of Life and Source of all being to be non-existent, which directly contradicts both reason and divine revelation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 86,
+      "demographic_id": 146
+    },
+    {
+      "extracted_data_verb": "rejected",
+      "extracted_data_noun_modifiers": null,
+      "extracted_data_verb_modifiers": "ever explicitly",
+      "extracted_data_noun": "you",
+      "extracted_data_phrases": [
+        "of God",
+        "either in your thoughts or by expressing such views to others",
+        "to others"
+      ],
+      "parameters_sinTheme": "apostasy",
+      "parameters_sinAgainst": "God",
+      "parameters_sinMedium": "words",
+      "id": 39362,
+      "question": "Have you ever explicitly rejected the existence of God, either in your thoughts or by expressing such views to others?",
+      "description": "Denying God's existence after having been baptized apostasy is one of the gravest sins possible because it is declaring the Author of Life and Source of all being to be non-existent, which directly contradicts both reason and divine revelation.",
+      "parameters_sinGeneric": false,
+      "parent_id": 86,
+      "demographic_id": 146
+    }
+  ]
+}
