@@ -34,6 +34,7 @@ const finalCanonicalURL = canonicalURL || siteURL.href;
 
 // 
 const footerClass = `${stickyFooter? "fixed":"relative"} bottom-0 bg-[--background] flex flex-col items-center w-full min-h-12 border-gray-800 border-t-2 mt-8`
+const devMode = import.meta.env.DEV;
 
 ---
 <html lang="en">
@@ -77,12 +78,9 @@ const footerClass = `${stickyFooter? "fixed":"relative"} bottom-0 bg-[--backgrou
 
 		<!-- View Transitions -->
 		<ViewTransitions />
+		{!devMode && <script defer src="https://workers.unumexamen.com/script.js" data-website-id="bc790383-ce63-4879-821d-609367c7ff19"> </script> }
 	</head>
-	<script
-		defer
-		src="https://workers.unumexamen.com/script.js"
-		data-website-id="bc790383-ce63-4879-821d-609367c7ff19">
-	</script>
+		
 
 		<body>
 			<main>
