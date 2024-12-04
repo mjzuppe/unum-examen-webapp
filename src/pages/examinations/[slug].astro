@@ -21,6 +21,9 @@ export function formatDemographic(input: string): string {
     parts.splice(2, 3, "in a relationship");
   }
   const sex = parts[0];
+  if (input.includes("65")) {
+    parts.splice(1, 3, "Senior");
+  }
   const ageRange = parts[1];
 
   let maritalStatus = parts[2]
@@ -42,7 +45,7 @@ export function formatDemographic(input: string): string {
   const parentalDetails = hasChildren ? ` ${parentalStatus.replace(/\b\w/g, (c) => c.toUpperCase())}` : '';
 
   // Construct result
-  const formatted = `${ageRange} Year-Old ${maritalStatus} ${personType} ${withWithout} ${parentalDetails}`;
+  const formatted = `${ageRange === "Senior"? "Senior, ": ageRange} ${maritalStatus} ${personType} ${withWithout} ${parentalDetails}`;
   
   return formatted;
 }
