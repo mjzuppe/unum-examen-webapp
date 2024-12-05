@@ -26,15 +26,13 @@ const timestamp_friendly = timestamp.toLocaleDateString("en-US", {
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
-	<div class="reader md:p-48 md:pt-0 sm:p-12 sm:pt-0">
+	<div class="reader md:p-48 md:pt-0">
 
 		<div class="p-12">
 			<div class="w-full flex justify-center">
-				<img src={post.data.heroImage} alt={post.data.title} class="w-[700px] h-[400px] object-cover rounded-2xl" />
+				<img src={post.data.heroImage} alt={post.data.title} class="sm:w-[350px] sm:h-[200px] md:w-[700px] md:h-[400px] object-cover rounded-2xl" />
 			</div>
 			<h1 class="text-center mt-8">{post.data.title}</h1>
-			
-	
 		</div>
 		<div class="w-full mt-6 mb-6">
 			<p>Last updated: {timestamp_friendly}</p>

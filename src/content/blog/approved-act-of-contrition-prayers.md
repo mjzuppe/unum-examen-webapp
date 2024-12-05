@@ -8,7 +8,7 @@ tags: []
 ---
 The Act of Contrition is a vital prayer during confession in Catholic spiritual life, expressing genuine sorrow for sins and a firm resolve to amend one's life. While many Catholics know the [traditional form](https://www.usccb.org/prayers/act-contrition) by heart, both the Vatican and the United States Conference of Catholic Bishops (USCCB) have approved several valid variations, including those found in the official Rite of Penance. This guide presents approved traditional and alternative Acts of Contrition, including psalm-based options, to enrich your experience of the sacrament.
 
-## The most common and recommended act of contrition prayers
+## The most recommended act of contrition prayers
 Many who grew up in the church tend to know a variation of one of these two prayers. The first is a traditional prayer:
 
 > O my God, I am heartily sorry for having offended Thee, 
