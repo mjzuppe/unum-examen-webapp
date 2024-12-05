@@ -13,9 +13,32 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
+console.log("PROPS", post);
 const { Content } = await post.render();
+
+const timestamp = new Date(post.data.pubDate);
+const timestamp_iso = timestamp.toISOString();
+const timestamp_friendly = timestamp.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+});
 ---
 
-<Layout title="" description="">
-	<Content />
+<Layout title={post.data.title} description={post.data.description}>
+	<div class="reader md:p-48 md:pt-0 sm:p-12 sm:pt-0">
+
+		<div class="p-12">
+			<div class="w-full flex justify-center">
+				<img src={post.data.heroImage} alt={post.data.title} class="w-[700px] h-[400px] object-cover rounded-2xl" />
+			</div>
+			<h1 class="text-center mt-8">{post.data.title}</h1>
+			
+	
+		</div>
+		<div class="w-full mt-6 mb-6">
+			<p>Last updated: {timestamp_friendly}</p>
+		</div>
+		<Content />
+	</div>
 </Layout>
