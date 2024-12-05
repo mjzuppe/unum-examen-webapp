@@ -11,7 +11,7 @@ const posts = (await getCollection("blog")).sort(
     
 {posts.map((blog) => (
 <a href={`/blog/${blog.slug}`}>
-    <div class="flex flex-col xs:w-32 md:w-96 height-56 m-4 p-4 bg-slate-700 hover:bg-slate-600 focus:bg-slate-600 transition-all rounded-md shadow-sm flex-shrink-0">
+    <div class="flex flex-col xs:w-32 md:w-96 height-56 m-4 p-4 bg-[--subtle-edge] hover:bg-[--primary-click] focus:bg-[--primary-click transition-all rounded-md shadow-sm flex-shrink-0">
                     <h2 class="text-lg font-bold mt-1 mb-1 text-white">{blog.data.title}</h2>
                             <p class="text-sm mt-1 mb-2"><FormattedDate date={blog.data.pubDate}></FormattedDate></p>
         <img src={blog.data.heroImage} alt={blog.data.title} class="h-60 w-full object-cover rounded-lg" />
