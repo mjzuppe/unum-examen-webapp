@@ -80,15 +80,12 @@ async function handleSubmit(e: Event) {
             },
             body: JSON.stringify({ email })
         });
-        response = await response.json();
         if (response.ok) {
             alert('You have been subscribed.');
             window.location.href = '/';
-        } else {
-            alert("Whoops, that didn't work. Make sure the address is correct and try again.");
         }
     } catch (error) {
-        alert('Sorry, there was an error. Please try again later.');
+        alert("Whoops, that didn't work. Make sure the address is correct and try again.");
         console.error('Subscription error:', error);
     }
 }
