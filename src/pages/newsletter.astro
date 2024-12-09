@@ -73,13 +73,14 @@ async function handleSubmit(e: Event) {
     }
     const email = emailElement.value;
     try {
-        const response = await fetch('https://workers-subscribe.unumexamen.com/', {
+        let response = await fetch('https://workers-subscribe.unumexamen.com/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({ email })
         });
+        response = await response.json();
         if (response.ok) {
             alert('You have been subscribed.');
             window.location.href = '/';
