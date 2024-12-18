@@ -1,6 +1,6 @@
 ---
 title: 'The most common and approved Act of Contrition prayers'
-description: 'The Act of Contrition is a prayer that a pentitent makes during a Catholic Confession and there are a few traditional versions as well as lesser known ones that are approved.'
+description: "'O my God, I'm heartily sorry...' and 'Lord Jesus, Son of God, have mercy on me a sinner' are the most traditional but not the only options for an act of contrition."
 pubDate: 'december 04 2024'
 heroImage: '/img/act-of-contrition.jpg'
 author: 'mark zuppe'
