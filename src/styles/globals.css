@@ -133,6 +133,9 @@
     font-size: max(3rem,min(8vmin,7rem));
     line-height: 1.1em;
     letter-spacing: -.03em;
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
   h2 {
     font-size: 2.6rem;
@@ -140,6 +143,12 @@
     font-weight: 700;
     line-height: 1.15em;
     margin: 1em 0.4em 1em;
+  }
+  h3 {
+    @media (max-width: 768px) {
+      font-size: 1.0rem;
+      line-height: 1.0rem;
+    }
   }
   p {
     margin: 1em;
