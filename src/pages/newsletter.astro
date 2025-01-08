@@ -8,87 +8,77 @@ import Layout from "@/layouts/Layout.astro";
     reader={true}
 >
     <div class="text-center w-full mt-4 lg:mt-24 md:p-8">
-        <h1 class="text-center">Break the hooks of sin and build courage for public witness.</h1>
+        <h1 class="text-center">
+            Break the hooks of sin and build courage for public witness.
+        </h1>
         <h3 class="text-center text-2xl p-6 mt-2">
-            A free, Catholic email newsletter. 
+            A free, Catholic email newsletter.
         </h3>
-        <form id="newsletter-form" class="w-full flex flex-col items-center">
-            <div class="m-6 mb-0 flex flex-col items-start">
-                <label for="email" class="mb-2">Email</label>
-                <input
-                    type="email"
-                    name="email"
-                    id="newsletter-email"
-                    placeholder="Enter your email"
-                    class="w-72 border-2 rounded-md p-2 bg-transparent"
-                    required
-                />
-                <div class="mt-2 font-light text-sm text-center">Unsubscribe anytime. We won't share your info.</div>
-            </div>
-           
-
-            <div class="items-center">
-                <button data-umami-event="newsletter submit" type="submit" class="bg-[--primary-click] text-white hover:bg-pink-600 focus:bg-pink-500 rounded-lg p-2 mt-4 w-full"
-                    >Subscribe</button
-                >
-            </div>
-
-        </form>
-        <h3 class="mt-24">Transformative Insights Featuring</h3>
-      <div class="w-full flex justify-center rounded-xl ">
-      
-        <div class="flex flex-row flex-wrap justify-center text-xl font-light">
-            <div class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]">
-                <img src="/img/draw-chain.jpg" alt="placeholder" class="hidden md:block h-24 w-24 object-cover rounded-lg" />
-                <div>Theology of sin, penance, and repentance</div>
-            </div>
-            <div class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]">
-                <img src="/img/draw-cross.jpg" alt="placeholder" class="hidden md:block h-24 w-24 object-cover rounded-lg" />
-                <div>Seasonal themes and Catholic traditions</div>
-            </div>
-            <div class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]">
-                <img src="/img/draw-barb.jpg" alt="placeholder" class="hidden md:block h-24 w-24 object-cover rounded-lg" />
-                <div>Trending worldly influences and snares</div>
-            </div>
-            <div class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]">
-                <img src="/img/draw-candle.jpg" alt="placeholder" class="hidden md:block h-24 w-24 object-cover rounded-lg" />
-                <div>Wisdom from saints and the faithful</div>
+        <div class="absolute p-2 md:p-0 left-0 w-full">
+            <div
+                style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%"
+            >
+                <script
+                    src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js"
+                    data-button-color="#F2921D"
+                    data-button-width="100px"
+                    data-button-text-color="#FFFFFF"
+                    data-site="https://mail.unumexamen.com/"
+                    data-locale="en"
+                    async>
+                </script>
             </div>
         </div>
-      </div>
        
+        <h3 class="mt-24">Transformative Insights Featuring</h3>
+        <div class="w-full flex justify-center rounded-xl">
+            <div
+                class="flex flex-row flex-wrap justify-center text-xl font-light"
+            >
+                <div
+                    class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]"
+                >
+                    <img
+                        src="/img/draw-chain.jpg"
+                        alt="placeholder"
+                        class="hidden md:block h-24 w-24 object-cover rounded-lg"
+                    />
+                    <div>Theology of sin, penance, and repentance</div>
+                </div>
+                <div
+                    class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]"
+                >
+                    <img
+                        src="/img/draw-cross.jpg"
+                        alt="placeholder"
+                        class="hidden md:block h-24 w-24 object-cover rounded-lg"
+                    />
+                    <div>Seasonal themes and Catholic traditions</div>
+                </div>
+                <div
+                    class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]"
+                >
+                    <img
+                        src="/img/draw-barb.jpg"
+                        alt="placeholder"
+                        class="hidden md:block h-24 w-24 object-cover rounded-lg"
+                    />
+                    <div>Trending worldly influences and snares</div>
+                </div>
+                <div
+                    class="flex flex-col items-center bg-black w-64 p-6 m-6 rounded-md border-2 border-[--subtle-edge]"
+                >
+                    <img
+                        src="/img/draw-candle.jpg"
+                        alt="placeholder"
+                        class="hidden md:block h-24 w-24 object-cover rounded-lg"
+                    />
+                    <div>Wisdom from saints and the faithful</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p><a href="https://mail.unumexamen.com">Read The Latest Issue</a></p>
+        </div>
     </div>
 </Layout>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('newsletter-form');
-    form?.addEventListener('submit', handleSubmit);
-});
-
-async function handleSubmit(e: Event) {
-    e.preventDefault();
-    const emailElement = document.getElementById('newsletter-email') as HTMLInputElement;
-    if (!emailElement) {
-        alert('Please enter a valid email.');
-        return;
-    }
-    const email = emailElement.value;
-    try {
-        let response = await fetch('https://workers-subscribe.unumexamen.com/', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email })
-        });
-        if (response.ok) {
-            alert('You have been subscribed.');
-            window.location.href = '/';
-        }
-    } catch (error) {
-        alert("Whoops, that didn't work. Make sure the address is correct and try again.");
-        console.error('Subscription error:', error);
-    }
-}
-</script>
